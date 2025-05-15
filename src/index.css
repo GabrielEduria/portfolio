@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+
+:root {
+  --scale-factor: calc(1vw / 14.4); /* Adjust based on your design */
+}
+
+p, a, span, h3 {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h1 {
+  font-family: 'Times New Roman';
+  src: url("/fonts/TimesNewRoman.ttf") format("truetype");
+  font-style: normal;
+}
+
