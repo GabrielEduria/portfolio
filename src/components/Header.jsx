@@ -4,7 +4,7 @@ import { DarkMode } from "."
 
 const Header = () => {
   return (
-<div className="flex gap-5 pt-5 md:pb-3 overflow-hidden">
+<div className="flex gap-2 sm:gap-[3.5] md:gap-5 pt-5 md:pb-3 overflow-hidden">
 
   {/* Profile Picture */}
   <img 
@@ -21,7 +21,7 @@ const Header = () => {
     </div>
 
     <p className="text-xs md:text-sm text-gray-400">📍 Manila, Philippines</p>      
-    <p className="pt-1 py-1 leading-tight overflow-hidden text-xs sm:text-sm md:text-base">
+    <p className="pt-1 py-1  text-xs sm:text-sm md:text-base">
       <span className="text-blue-500 font-bold">Software Developer </span> |
       <span className="text-red-500 font-bold"> Fitness Coach </span>
     </p>
@@ -31,7 +31,7 @@ const Header = () => {
         href="mailto:gabrielezekieleduria@gmail.com"
         text={
           <>
-            <i class="fa-solid fa-envelope pr-2"></i>Email me
+            <i className="fa-solid fa-envelope pr-2"></i>Email me
           </>
         }
       />
