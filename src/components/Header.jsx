@@ -10,12 +10,12 @@ const Header = () => {
   <img 
     src={myPicture}
     alt="My Picture"
-    className="size-32 md:size-38 object-cover rounded-xl"
+    className="size-28 md:size-38 object-cover rounded-xl"
   />
 
   <div className="flex flex-col w-full ">
     <div className="flex justify-between items-center pt-0.5">
-      <h1 className="text-3xl md:text-4xl font-extrabold">Gabriel Eduria</h1>
+      <h1 className="text-2xl md:text-4xl font-extrabold leading-tight">Gabriel Eduria</h1>
         <DarkMode />
     </div>
 
