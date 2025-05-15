@@ -4,7 +4,7 @@ import { DarkMode } from "."
 
 const Header = () => {
   return (
-<div className="flex gap-5 pt-5 md:pb-3">
+<div className="flex gap-5 pt-5 md:pb-3 overflow-hidden">
 
   {/* Profile Picture */}
   <img 
@@ -13,14 +13,15 @@ const Header = () => {
     className="size-28 md:size-38 object-cover rounded-xl"
   />
 
-  <div className="flex flex-col w-full ">
-    <div className="flex justify-between items-center pt-0.5">
-      <h1 className="text-2xl md:text-4xl font-extrabold whitespace-nowrap overflow-hidden">Gabriel Eduria</h1>
+  <div className="flex-1 min-w-0 pt-1">
+    <div className="flex  items-center justify-between gap-2">
+      <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold
+       whitespace-nowrap overflow-hidden text-ellipsis">Gabriel Eduria</h1>
         <DarkMode />
     </div>
 
     <p className="text-xs md:text-sm text-gray-400">📍 Manila, Philippines</p>      
-    <p className="pt-1 py-1 leading-tight overflow-hidden text-sm md:text-base">
+    <p className="pt-1 py-1 leading-tight overflow-hidden text-xs sm:text-sm md:text-base">
       <span className="text-blue-500 font-bold">Software Developer </span> |
       <span className="text-red-500 font-bold"> Fitness Coach </span>
     </p>
