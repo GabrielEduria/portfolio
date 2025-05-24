@@ -10,21 +10,25 @@ const Header = () => {
   <img 
     src={myPicture}
     alt="My Picture"
-    className="size-28 md:size-38 object-cover rounded-xl"
+    className="size-30 md:size-36 object-cover rounded-xl"
   />
 
-  <div className="flex-1 min-w-0 pt-1">
-    <div className="flex  items-center justify-between gap-2">
-      <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold
+  <div className="flex-1  md:pt-1">
+    <div className="flex  items-center justify-between ">
+      <h1 className="text-3xl sm:text-3xl md:text-4xl font-extrabold
        whitespace-nowrap overflow-hidden text-ellipsis">Gabriel Eduria</h1>
         <DarkMode />
     </div>
+     
+    
+    <p className="text-xs md:text-sm text-gray-400">📍 Manila, Philippines</p>     
 
-    <p className="text-xs md:text-sm text-gray-400">📍 Manila, Philippines</p>      
-    <p className="pt-1 py-1  text-xs sm:text-sm md:text-base">
-      <span className="text-blue-500 font-bold">Software Developer </span> |
-      <span className="text-red-500 font-bold"> Fitness Coach </span>
-    </p>
+   <span className="pt-1 py-1 text-xs sm:text-sm md:text-base inline-flex space-x-2">
+        <p className="text-blue-500 font-bold mr-2">Software Dev</p> 
+        |
+        <p className="text-red-500 font-bold ml-2">Fitness Coach</p>
+      </span>
+  
 
     <div className="flex gap-3 pt-1 text-xs md:text-sm">
       <Button 

@@ -7,7 +7,7 @@ const Button = ({ text, href, onClick }) => {
           bg-[#050708] hover:bg-[#050708]/90 focus:ring-4 
           focus:outline-none focus:ring-[#050708]/50  
           rounded-lg items-baseline text-center inline-flex overflow-hidden text-nowrap 
-          *:md:text-sm text-xs px-2  py-2 md:px-2.5 md:py-2 ">
+          text-xs md:text-md px-2 py-2">
         {text}
         </button>
   );

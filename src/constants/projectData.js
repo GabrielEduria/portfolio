@@ -32,5 +32,11 @@ export const projectCards = [
     year: "2023",
     description: "A Ecommerce Website app for a motorcycle local shop",
     tags: ["HTML / CSS", "VanillaJS", "mySQL"]
+  },
+  {
+    title: "NutriTakes",
+    year: "2025",
+    description: "A Mobile Application food image classification with real time nutritional content analysis using AI",
+    tags: ["Flutter", "Machine Learning"]
   }
 ];
