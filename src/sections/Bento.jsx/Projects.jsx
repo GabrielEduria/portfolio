@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="p-3">
         
               <div className="flex justify-between items-center">
-                 <h2 className="text-xl font-bold pb-4">Projects</h2>
+                 <h2 className="text-xl font-bold mb-4">Projects</h2>
                    <Link to="/ProjectHome">
                           View All 
                     <i className="fa-solid fa-arrow-right  ml-2"/>

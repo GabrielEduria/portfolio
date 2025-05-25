@@ -2,7 +2,7 @@ import { Tag } from "../../components"
 const TechStack = () => {
     return (
         <div className="p-3">
-            <h2 className="text-xl font-bold mb-3">Tech Stack</h2>
+            <h2 className="text-xl font-bold mb-2">Tech Stack</h2>
 
             <div className="mb-2">
                 <p className="font-bold mb-2">Frontend</p>
