@@ -2,7 +2,7 @@ import FurswipeImg from "../assets/images/furswipe.png";
 import NikeJpg from "../assets/images/Nike1.jpg";
 import MusicEmotionJpg from "../assets/images/musicEmotion1.jpg";
 import CatiganJpg from "../assets/images/catigan1.jpg";
-
+import LuciMoto from "../assets/images/LuciMoto.png"
 export const projectCards = [
   {
     title: "Furswipe – A Dog Adoption Application",
@@ -39,9 +39,11 @@ export const projectCards = [
   {
     title: "Luci Moto",
     year: "2023",
+    image: LuciMoto,
     shortDescription: "A Ecommerce Website app for a motorcycle local shop",
     fullDescription: "A full-stack e-commerce web application developed for a local motorcycle shop. Features include product listings, search and filtering, cart management, and secure checkout. Built with React, Node.js, and MongoDB to support real-time updates, inventory control, and a mobile-friendly user experience tailored to local buyers",
-    tags: ["HTML / CSS", "VanillaJS", "mySQL"]
+    tags: ["HTML / CSS", "VanillaJS", "mySQL"],
+    url: "https://github.com/GabrielEduria/Luci-Moto-/tree/main"
   },
   {
     title: "NutriTakes",

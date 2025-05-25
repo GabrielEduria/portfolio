@@ -50,14 +50,16 @@ const ProjectHome = () => {
               </div>
 
           
-                    <Button 
-                      href="https://ngl.link/gbrl.zkl"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-solid fa-folder pr-2" />
-                      Visit
-                  </Button>
+                   {card.url && (
+  <Button
+    href={card.url}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fa-solid fa-folder pr-2" />
+    Repo
+  </Button>
+)}
                   
                   </div>
                 </div>
