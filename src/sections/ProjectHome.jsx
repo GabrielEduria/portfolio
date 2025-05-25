@@ -13,8 +13,7 @@ const ProjectHome = () => {
   const { isDarkMode } = useContext(DarkModeContext);
 
   return (
-    <div className="relative min-h-screen">
-  
+     <div className="relative w-full min-h-screen ">
       {isDarkMode ? (
       <div className="relative h-full w-full bg-slate-950"><div className="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div>
       ) : (
@@ -23,7 +22,7 @@ const ProjectHome = () => {
       )}
 
       <Motion>
-        <div className="w-full max-w-[880px] mx-auto">
+        <div className="w-full max-w-[880px] mx-auto container relative ">
           <NavBar />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-20 p-6">
             {projectCards.map((card, index) => (

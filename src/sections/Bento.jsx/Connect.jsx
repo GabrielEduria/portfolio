@@ -24,7 +24,7 @@ const Connect = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
-                <i className="fa-brands fa-github text-[28px] leading-none pl-[0.5]"></i>
+                <i className="fa-brands fa-github text-[30px] leading-none pl-[0.5]"></i>
                 <span>GitHub</span>
               </a>
 
