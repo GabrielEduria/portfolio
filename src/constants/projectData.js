@@ -10,7 +10,7 @@ export const projectCards = [
     year: "2023",
     image: NikeJpg,
     shortDescription: "A dynamic responsive Nike full mockup landing Page",
-    fullDescription: "A responsive web landing page built for a local dental clinic. Designed with HTML, Tailwind CSS, and JavaScript to highlight services, patient testimonials, and contact information. Focused on clean UI, accessibility, and conversion-driven layout to attract new clients.",
+    fullDescription: "A fully responsive and dynamic Nike landing page mockup designed to showcase the brand’s latest products with sleek, modern UI. Built using HTML, Tailwind CSS, and JavaScript, it features smooth animations, clear calls-to-action, and optimized layouts for all devices. Focused on delivering a fast, engaging user experience that highlights product visuals and boosts brand presence.",
     tags: ["React", "TailwindCSS", "CMS"],
     url: "https://github.com/GabrielEduria/Nike_Landing_Page"
   },
