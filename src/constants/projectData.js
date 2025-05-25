@@ -2,7 +2,7 @@ import FurswipeImg from "../assets/images/furswipe.png";
 import NikeJpg from "../assets/images/Nike1.jpg";
 import MusicEmotionJpg from "../assets/images/musicEmotion1.jpg";
 import CatiganJpg from "../assets/images/catigan1.jpg";
-import LuciMoto from "../assets/images/LuciMoto.png"
+import LuciMoto from "../assets/images/LuciMoto.png";
 import NutriTakes from "../assets/images/NutriTakes.png";
 export const projectCards = [
    {
@@ -20,7 +20,7 @@ export const projectCards = [
     image: NutriTakes,
     shortDescription: "A Mobile Application food image classification with real time nutritional content analysis using AI",
     fullDescription: "A mobile application that uses image classification and a trained AI model to identify food items and provide real-time nutritional content analysis. Built with TensorFlow Lite and integrated into a mobile-friendly UI, it demonstrates practical application of computer vision, AI model deployment, and health-focused technology.",
-    tags: ["Flutter", "Tensorflow", "google Colab" ],
+    tags: ["Flutter", "Tensorflow", "Google Colab" ],
     url: "https://github.com/GabrielEduria/NutriTakes-"
   },
    {
@@ -56,7 +56,7 @@ export const projectCards = [
     image: CatiganJpg,
     shortDescription: "A Web landing page for a dental clinic",
     fullDescription: "A responsive web landing page built for a local dental clinic. Designed with HTML, Tailwind CSS, and JavaScript to highlight services, patient testimonials, and contact information. Focused on clean UI, accessibility, and conversion-driven layout to attract new clients.",
-    tags: ["HTML/CSS", "Vanila Js"]
+    tags: ["HTML/CSS", "VanillaJs"]
   },
  
  
