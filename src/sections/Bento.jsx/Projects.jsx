@@ -14,9 +14,10 @@ const Projects = () => {
       
       <div className="p-3">
         
-              <div className="flex justify-between items-center">
-                 <h2 className="text-xl font-bold mb-4">Projects</h2>
-                   <Link to="/ProjectHome">
+              <div className="flex justify-between items-center ">
+                 <h2 className="text-2xl  font-bold mb-4">Projects</h2>
+                   <Link to="/ProjectHome"
+                   className="transition transform duration-200 hover:scale-105">
                           View All 
                     <i className="fa-solid fa-arrow-right  ml-2"/>
                    </Link>
@@ -40,10 +41,12 @@ const Projects = () => {
   
                 <div className="flex justify-between items-center ">
                   <h3 className="font-bold lg:text-lg  md:text-base overflow-ellipsis">{card.title}</h3>
-                  <p className="font-semibold text-gray-500">{card.year}</p>
+                  <p className="font-semibold text-gray-500  dark:border-gray-600
+      dark:text-gray-300">{card.year}</p>
                 </div>
                 <div className="flex flex-col mt-auto">
-                  <p className=" text-gray-700 pb-2 text-sm md:text-base">{card.shortDescription}</p>
+                  <p className=" text-gray-700 pb-2 text-sm md:text-base  dark:border-gray-600
+      dark:text-gray-300">{card.shortDescription}</p>
                   <div className="flex flex-wrap gap-2 text-sm md:text-base">
                     {card.tags.map((tag, i) => (
                       <Tag key={i}>{tag}</Tag>

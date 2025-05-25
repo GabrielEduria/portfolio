@@ -1,11 +1,11 @@
 const Bio = () => {
     return (
       <div className="p-3">
-        <h2 className="text-base sm:text-2xl font-bold mb-2">Bio</h2>
-         <>
+        <h2 className="text-2xl font-bold mb-2">Bio</h2>
+         
              <div className="flex items-baseline  gap-4 mb-4 leading-7">
                 <p className="text-sm sm:text-base font-bold">2004</p>
-                <p className="text-xs md:text-base">Born in Manila, Philippines</p>
+                <p className="text-xs sm:text-base">Born in Manila, Philippines</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
@@ -33,10 +33,6 @@ const Bio = () => {
                 <p className="text-xs sm:text-base">Started Freelancing Projects</p>
               </div>
 
-              <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm sm:text-base font-bold">2025</p>
-                <p className="text-xs sm:text-base">Launched my own Fitness Coaching Platform</p>
-              </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
                 <p className="text-sm sm:text-base font-bold">2026</p>
@@ -47,7 +43,7 @@ const Bio = () => {
                 <p className="text-sm sm:text-base font-bold">2026</p>
                 <p className="text-xs sm:text-base">And Many More 🤣😉🤞🌹</p>
               </div>
-         </>
+        
       </div>
 
     )

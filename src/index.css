@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
+
+
 @custom-variant dark (&:where(.dark, .dark *));
 
-
-
 :root {
-  --scale-factor: calc(1vw / 14.4); /* Adjust based on your design */
+  --scale-factor: calc(1vw / 14.4); 
 }
+
 
 p, a, span, h3 {
   font-family: "Manrope", sans-serif;
@@ -14,9 +15,20 @@ p, a, span, h3 {
   font-style: normal;
 }
 
+
 h1 {
-  font-family: 'Times New Roman';
-  src: url("/fonts/TimesNewRoman.ttf") format("truetype");
+  font-family: 'Times New Roman', serif;
   font-style: normal;
 }
 
+
+body {
+  background-color: white;
+  color: black;
+}
+
+
+.dark body {
+  background-color: #121212; 
+  color: #e0e0e0; 
+}

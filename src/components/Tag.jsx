@@ -4,7 +4,10 @@ const Tag = ({ children }) => (
                   px-2 py-1 text-gray-700 
                   whitespace-nowrap overflow-hidden
                   sm:max-w-[120px] sm:truncate sm:px-1.5 sm:py-0.5
-                  text-xs sm:text-sm ">
+                  text-xs sm:text-sm
+                  
+      dark:border-gray-600
+      dark:text-gray-300 ">
     {children}
   </span>
 );
