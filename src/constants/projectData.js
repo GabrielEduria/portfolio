@@ -1,5 +1,5 @@
 import FurswipeImg from "../assets/images/furswipe.png";
-import NikeJpg from "../assets/images/Nike1.jpg";
+import NikeJpg from "../assets/images/nike1.jpg";
 import MusicEmotionJpg from "../assets/images/musicEmotion1.jpg";
 import CatiganJpg from "../assets/images/catigan1.jpg";
 import LuciMoto from "../assets/images/LuciMoto.png";
