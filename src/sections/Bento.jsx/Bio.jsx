@@ -15,37 +15,37 @@ const Bio = () => {
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
                 <p className="text-sm sm:text-base font-bold">2019</p>
-                <p className="text-xs md:text-base">Began fitness Journey</p>
+                <p className="text-xs sm:text-base">Began fitness Journey</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm md:text-base font-bold">2020</p>
-                <p className="text-xs md:text-base">Started studying Accountancy Business Management</p>
+                <p className="text-sm sm:text-base font-bold">2020</p>
+                <p className="text-xs sm:text-base">Started studying Accountancy Business Management</p>
               </div>
 
               <div className="flex items-baseline  gap-4 mb-4 leading-7">
-                <p className="text-sm md:text-base font-bold">2022</p>
-                <p className="text-xs md:text-base">Studies Computer Science</p>
+                <p className="text-sm sm:text-base font-bold">2022</p>
+                <p className="text-xs sm:text-base">Studies Computer Science</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm md:text-base font-bold">2023</p>
-                <p className="text-xs md:text-base">Started Freelancing Projects</p>
+                <p className="text-sm sm:text-base font-bold">2023</p>
+                <p className="text-xs sm:text-base">Started Freelancing Projects</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm md:text-base font-bold">2025</p>
-                <p className="text-xs md:text-base">Launched my own Fitness Coaching Platform</p>
+                <p className="text-sm sm:text-base font-bold">2025</p>
+                <p className="text-xs sm:text-base">Launched my own Fitness Coaching Platform</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm smd:text-base font-bold">2026</p>
-                <p className="text-xs md:text-base">Expected Graduation</p>
+                <p className="text-sm sm:text-base font-bold">2026</p>
+                <p className="text-xs sm:text-base">Expected Graduation</p>
               </div>
 
               <div className="flex items-baseline gap-4 mb-4 leading-7">
-                <p className="text-sm md:text-base font-bold">2026</p>
-                <p className="text-xs md:text-base">And Many More 🤣😉🤞🌹</p>
+                <p className="text-sm sm:text-base font-bold">2026</p>
+                <p className="text-xs sm:text-base">And Many More 🤣😉🤞🌹</p>
               </div>
          </>
       </div>

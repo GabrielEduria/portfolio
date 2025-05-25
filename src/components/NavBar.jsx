@@ -2,15 +2,20 @@ import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
-      <div className="sticky top-0 z-50 w-full py-4 bg-white ">
-                 <div className="mx-auto max-w-[800px] flex items-center justify-between px-4">
-                    <Link to="/Home" className="inline-flex items-center text-sm md:text-base">
+      <div className="sticky top-0 z-50  pt-3  ">
+                 <div className="mx-auto max-w-[800px] flex items-center justify-between px-4 backdrop-filter backdrop-blur-sm rounded-full py-3">
+                    <Link to="/Home" className="inline-flex items-center text-xs md:text-sm">
                         <i className="fa-solid fa-arrow-left mr-2" /> Home 
                     </Link>                 
-                    <div className="mx-auto sm:flex sm:items-center md:inline-flex pr-5 md:pr-15 sm:pr-10 items-baseline overflow-hidden">
-                        <h1 className="text-3xl sm:text-5xl font-semibold">Gabriel Eduria</h1>
-                        <h3 className="text-2xl sm:text-3xl pt-1.5">&gt; Projects</h3>
-                    </div>
+                    <div className="mx-auto pr-5 sm:pr-10 md:pr-15 
+                flex flex-col sm:flex-row sm:items-center">
+                        <h1 className="text-2xl sm:text-5xl font-semibold leading-none">
+                                Gabriel Eduria
+                            </h1>
+                            <h3 className="text-xl sm:text-3xl pt-0.5 sm:pt-0 ml-0 sm:ml-3 leading-none">
+                                &gt; Projects
+                            </h3>
+                        </div>
                 </div>
      </div>
   )

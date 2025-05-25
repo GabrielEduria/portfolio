@@ -15,7 +15,7 @@ const Header = () => {
 
   <div className="flex-1">
     <div className="flex items-start justify-between">
-      <h1 className="text-xl sm:text-4xl font-extrabold leading-tight m-0">
+      <h1 className="text-xl sm:text-4xl font-extrabold leading-tight">
         Gabriel Eduria
   
       </h1>

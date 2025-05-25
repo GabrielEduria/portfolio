@@ -43,7 +43,7 @@ const Projects = () => {
                   <p className="font-semibold text-gray-500">{card.year}</p>
                 </div>
                 <div className="flex flex-col mt-auto">
-                  <p className=" text-gray-700 pb-2 text-sm md:text-base">{card.description}</p>
+                  <p className=" text-gray-700 pb-2 text-sm md:text-base">{card.shortDescription}</p>
                   <div className="flex flex-wrap gap-2 text-sm md:text-base">
                     {card.tags.map((tag, i) => (
                       <Tag key={i}>{tag}</Tag>
