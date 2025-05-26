@@ -8,7 +8,7 @@ const Button = ({ children, href, onClick }) => {
     inline-flex items-center text-nowrap
     text-[10px] sm:text-sm px-2.5 py-1.5 sm:px-4 
     overflow-hidden w-fit
-    transition transform duration-200 hover:scale-105 `;
+    transition transform duration-200 hover:scale-105 z-9`;
 
     if (href) {
       return (
