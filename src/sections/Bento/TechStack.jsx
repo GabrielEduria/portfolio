@@ -10,23 +10,33 @@ const TechStack = () => {
                     <Tag>JavaScript</Tag>
                     <Tag>TypeScript</Tag>
                     <Tag>React</Tag>
-                    <Tag>NextJs</Tag>
-                    <Tag>Laravel</Tag>
+                    <Tag>Next.js</Tag>
+                   
                     <Tag>TailwindCSS</Tag>
                    </div>
             </div>
 
-            <div >
+            <div className="mb-2">
             <p className="font-bold mb-2">Backend</p>
-                   <div className="flex gap-3">
+                   <div className="flex flex-wrap gap-3">
                     <Tag>Node.js</Tag>
                     <Tag>MySQL</Tag>
                     <Tag>PHP</Tag>
                     <Tag>Python</Tag>
+                    <Tag>Laravel</Tag>
+                   </div>
+            </div>
+           
+           <div >
+            <p className="font-bold mb-2">Tools</p>
+                   <div className="flex flex-wrap gap-3">
+                    <Tag>Adobe Creative Suite</Tag>
+                    <Tag>Figma</Tag>
+                    <Tag>Framer Motion</Tag>
+                    <Tag>WordPress</Tag>
                    </div>
             </div>
 
-         
         </div>
     )
 }
