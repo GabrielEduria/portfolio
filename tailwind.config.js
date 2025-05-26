@@ -7,9 +7,9 @@ module.exports = {
   ],
     darkMode: 'class',
   theme: {
-    extend: {
-      screens: {
-        'cs': '20rem',
+    extend: {    
+        screens: {
+        'xs': '20rem',
       }
     },
   },
