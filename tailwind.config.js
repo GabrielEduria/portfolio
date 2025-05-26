@@ -7,7 +7,11 @@ module.exports = {
   ],
     darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        'cs': '20rem',
+      }
+    },
   },
   plugins: [],
 }

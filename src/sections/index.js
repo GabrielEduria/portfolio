@@ -1,14 +1,11 @@
 import Header from "../components/Header";
-import BentoGrid from "./BentoGrid";
 import Footer from "../components/Footer"
-import ProjectHome from "./ProjectHome";
+import Projects from "./Projects";
 import Home from "./Home"
 
 export {
-
     Header,
-    BentoGrid,
     Footer,
-    ProjectHome,
+    Projects,
     Home
 }

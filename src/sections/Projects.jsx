@@ -9,7 +9,7 @@ import {
 } from "../components";
 import { projectCards } from "../constants/projectData";
 
-const ProjectHome = () => {
+const Projects = () => {
   const { isDarkMode } = useContext(DarkModeContext);
 
   return (
@@ -69,4 +69,4 @@ const ProjectHome = () => {
   );
 };
 
-export default ProjectHome;
+export default Projects;

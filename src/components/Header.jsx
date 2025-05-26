@@ -13,7 +13,7 @@ const Header = () => {
 
       <div className="flex-1 min-w-0 ">
         <div className="flex items-start justify-between max-h-9">
-          <h1 className="text-3xl sm:text-5xl font-extrabold leading-tight truncate max-w-[85%] min-w-0">
+          <h1 className="text-2xl xs:text-3xl sm:text-5xl font-extrabold leading-tight truncate max-w-[85%] min-w-0">
             Gabriel Eduria
           </h1> 
             <DarkMode />

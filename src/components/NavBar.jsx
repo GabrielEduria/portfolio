@@ -4,8 +4,9 @@ const NavBar = () => {
   return (
     <div className="sticky top-0 z-50 pt-3">
      <div className="
-          mx-auto max-w-[880px] flex items-center justify-between px-4 h-full w-full bg-brown-900 rounded-full bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-50 py-3
-        bg-white/70 dark:bg-gray-900/70
+          mx-auto max-w-[880px] flex items-center justify-between px-4 h-full w-full bg-brown-900 rounded-full bg-clip-padding 
+          backdrop-filter backdrop-blur-sm bg-opacity-50 py-3
+        
         text-gray-900 dark:text-gray-300 ">
           <Link to="/Home" className="inline-flex items-center text-xs md:text-sm transition transform duration-200 hover:scale-105
                                       dark:text-gray-300">

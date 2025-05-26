@@ -1,8 +1,8 @@
-import About from "./Bento.jsx/About";
-import Bio from "./Bento.jsx/Bio";
-import TechStack from "./Bento.jsx/TechStack";
-import Connect from "./Bento.jsx/Connect"; 
-import Projects from "./Bento.jsx/Projects"
+import About from "./About";
+import Bio from "./Bio";
+import TechStack from "./TechStack";
+import Connect from "./Connect"; 
+import ProjectLists from "./ProjectLists"
 
 const BentoGrid = () => {
   return (
@@ -30,7 +30,7 @@ const BentoGrid = () => {
 
   {/* 5. Projects — appears before Connect on mobile, but after on desktop */}
   <div className="border border-gray-300 col-span-12 md:col-span-8 md:row-span-2 rounded-lg order-4 md:order-5">
-    <Projects />
+    <ProjectLists />
   </div>
 
 </div>

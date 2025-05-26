@@ -9,14 +9,14 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const Projects = () => {
+const ProjectLists = () => {
     return (
       
       <div className="p-3">
         
               <div className="flex justify-between items-center ">
                  <h2 className="text-2xl  font-bold mb-4">Projects</h2>
-                   <Link to="/ProjectHome"
+                   <Link to="/Projects"
                    className="transition transform duration-200 hover:scale-105">
                           View All 
                     <i className="fa-solid fa-arrow-right  ml-2"/>
@@ -61,4 +61,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default ProjectLists;
