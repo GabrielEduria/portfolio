@@ -8,7 +8,7 @@ const NavBar = () => {
           px-4 h-full w-full bg-brown-900 rounded-full bg-clip-padding 
           backdrop-filter backdrop-blur-sm bg-opacity-400 py-3
         text-gray-900 dark:text-neutral-200">
-          <Link to="/Home" className="inline-flex items-center text-xs md:text-sm transition transform duration-200 hover:scale-105
+          <Link to="/" className="inline-flex items-center text-xs md:text-sm transition transform duration-200 hover:scale-105
                                       dark:text-gray-300">
             <i className="fa-solid fa-arrow-left mr-2" /> Home
           </Link>
