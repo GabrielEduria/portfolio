@@ -5,6 +5,7 @@ import DarkMode from "./DarkMode";
 import NavBar from "./NavBar";
 import Header from "./Header";
 import Footer from "./Footer";
+import { DarkModeContext } from "./DarkModeContext";
 
 export {
     Button,
@@ -13,5 +14,6 @@ export {
     DarkMode,
     NavBar,
     Header,
-    Footer
+    Footer,
+    DarkModeContext
 }

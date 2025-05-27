@@ -1,6 +1,7 @@
 import { Tag } from "../../components";
 import { Link } from "react-router-dom"
 import { projectCards } from "../../constants/projectData";
+import React from 'react';
 
  // Swiper.js Carousel
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -9,7 +10,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const ProjectLists = () => {
+const ProjectLists = React.memo(() => {
     return (
       
       <div className="p-3">
@@ -30,8 +31,7 @@ const ProjectLists = () => {
                 delay: 3000,
                 disableOnInteraction: false,
               }}
-              navigation={true}
-              modules={[Autoplay, Navigation]}
+              modules={[Autoplay]}
               className="mySwiper"
             >
           {projectCards.map((card, index) => (
@@ -59,6 +59,6 @@ const ProjectLists = () => {
             </Swiper>
         </div>
     )
-}
+});
 
 export default ProjectLists;

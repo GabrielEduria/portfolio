@@ -2,6 +2,13 @@ import { Link } from "react-router-dom"
 import DarkMode from "../components/DarkMode";
 
 const NavBar = () => {
+  const PathToPageTitle = {
+    "/projects": "Projects",
+    "/resume": "Resume",
+    "/": "Home",
+  };
+
+  const CurrentPage = PathToPageTitle[location.pathname] || "";
   return (
     <div className="sticky top-0 z-50 pt-3 sm:px-5">
      <div className="
@@ -18,7 +25,7 @@ const NavBar = () => {
             Gabriel Eduria
           </h1>
           <h3 className="text-xl sm:text-3xl pt-0.5  ml-0 sm:ml-3 sm:pt-2 leading-none">
-            &gt; Projects
+            &gt; {CurrentPage}
           </h3>
         </div>
          <div>
