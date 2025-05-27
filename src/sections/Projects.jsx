@@ -40,7 +40,7 @@ const Projects = () => {
 
             <div className="flex flex-col pt-2 flex-grow">
               <div className="flex justify-between items-center">
-                <h2 className="font-bold text-lg sm:text-2xl truncate">{card.title}</h2>
+                <h2 className="font-bold text-lg sm:text-2xl text-wrap">{card.title}</h2>
                 <span className="text-sm font-semibold text-gray-500">
                   {card.year}
                 </span>
