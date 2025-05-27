@@ -6,8 +6,7 @@ const About = () => {
         </h2>
     <p className="mb-5 leading-7 overflow-hidden text-sm sm:text-base">
       A CS student with hands-on experience in mobile app development and web technologies.  
-      I build clean, modern, and scalable websites using Next.js, React, and Tailwind CSS, focused on fast 
-      performance and responsive design. I’m passionate about turning ideas into polished digital solutions 
+      I build clean, modern, and scalable websites using Next.js, React, and Tailwind CSS, focused on modern and responsive design. I’m passionate about turning ideas into polished digital solutions 
       that help businesses grow and users enjoy seamless experiences.
     </p>
 

@@ -24,7 +24,7 @@ const Projects = () => {
       <Motion>
        <div className="w-full max-w-[880px] mx-auto container relative">
       <NavBar />
-  <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 xs:gap-20 p-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 xs:gap-20 p-6">
         {projectCards.map((card, index) => (
           <div
             key={index}
@@ -34,13 +34,13 @@ const Projects = () => {
               <img
                 src={card.image}
                 alt={`Screenshot of ${card.title}`}
-                className="max-h-full max-w-full object-contain rounded-2xl"
+                className="max-h-full max-w-full object-contain rounded-lg"
               />
             </div>
 
             <div className="flex flex-col pt-2 flex-grow">
               <div className="flex justify-between items-center">
-                <h2 className="font-bold text-lg truncate">{card.title}</h2>
+                <h2 className="font-bold text-lg sm:text-2xl truncate">{card.title}</h2>
                 <span className="text-sm font-semibold text-gray-500">
                   {card.year}
                 </span>

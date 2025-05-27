@@ -10,8 +10,8 @@ const DarkMode = () => {
          console.log('Toggle clicked');
         setIsDarkMode(!isDarkMode)}}
       className="rounded text-gray-600 dark:text-gray-300 cursor-pointer 
-      transition-transform duration-300 hover:scale-105 flex-shrink-0 p-2 mr-1
-      text-xs sm:text-sm z-10"
+      transition-transform duration-300 hover:scale-105 flex-shrink-0 
+      text-xs sm:text-sm sm:pt-3 z-10 pt-1.5"
       aria-label="Toggle Dark Mode"
     >
       {isDarkMode ? (

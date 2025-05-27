@@ -17,7 +17,7 @@ const ProjectLists = () => {
               <div className="flex justify-between items-center -z-5">
                  <h2 className="text-2xl  font-bold mb-4.5">Projects</h2>
                    <Link to="/Projects"
-                   className="transition transform duration-200 hover:scale-105">
+                   className="transition transform duration-200 hover:scale-105 pb-3">
                           View All 
                     <i className="fa-solid fa-arrow-right  ml-2"/>
                    </Link>

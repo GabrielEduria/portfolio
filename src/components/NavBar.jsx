@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom"
+import DarkMode from "../components/DarkMode";
 
 const NavBar = () => {
   return (
-    <div className="sticky top-0 z-50 pt-3">
+    <div className="sticky top-0 z-50 pt-3 sm:px-5">
      <div className="
           mx-auto max-w-[880px] flex items-center justify-between 
           px-4 h-full w-full bg-brown-900 rounded-full bg-clip-padding 
@@ -20,6 +21,9 @@ const NavBar = () => {
             &gt; Projects
           </h3>
         </div>
+         <div>
+          <DarkMode />
+          </div>
       </div>
     </div>
   )
