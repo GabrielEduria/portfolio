@@ -18,7 +18,7 @@ const Home = () => {
 
       )}
 
-      <div className="w-full max-w-[880px] px-4 sm:px-6 lg:px-8 mx-auto z-10">
+      <div className="w-full max-w-[880px] px-2 sm:px-6 lg:px-8 mx-auto z-10">
         <Motion>
           <Header />
           <BentoGrid />

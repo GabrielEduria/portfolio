@@ -5,27 +5,27 @@ import DarkMode from "../components/DarkMode";
 const Header = () => {
   return (
 
-    <div className="flex gap-2 sm:gap-4 pt-5 items-start max-w-full sm:pb-3 z-4">
+    <div className="flex gap-1.5 sm:gap-4 pt-5 items-start max-w-full sm:pb-3 z-4">
       <img 
         src={myPicture}
         alt="My Picture"
-        className="w-26 sm:w-36 flex-shrink-0 object-cover rounded-xl"/>
+        className="w-24 sm:w-36 flex-shrink-0 object-cover rounded-xl"/>
 
       <div className="flex-1 min-w-0 ">
-        <div className="flex items-start justify-between max-h-9 sm:pt-0">
-          <h1 className="text-2xl  xs:text-3xl sm:text-5xl 
-          font-extrabold leading-tight truncate max-w-[85%] min-w-0">
+        <div className="flex items-start justify-between h-8 sm:h-8 sm:pt-0">
+          <h1 className="text-[27px]  xs:text-3xl sm:text-5xl 
+          font-extrabold leading-tight truncate max-w-[100%] overflow-ellipsis min-w-0">
             Gabriel Eduria
           </h1> 
             <DarkMode />
         </div>
-        <p className="text-xs sm:text-sm pt-1.5 sm:pt-5 text-gray-600 dark:text-white">📍 Manila, Philippines</p>
+        <p className="text-xs sm:text-sm sm:pt-5 text-gray-600 dark:text-white">📍 Manila, Philippines</p>
 
-      <div className=" flex flex-wrap items-center  ">
-        <span className="text-sm sm:text-base text-blue-500 dark:text-red-600 font-bold">Software Developer</span>
+      <div className=" flex flex-wrap items-center pl-1">
+        <span className="text-xs sm:text-base text-blue-500 dark:text-red-600 font-bold">Software Developer</span>
       </div>
 
-        <div className="flex gap-3 text-xs sm:text-sm pt-1 md:pt-2">
+        <div className="flex gap-3 text-xs sm:text-sm pt-0.5 sm:pt-1.5">
           <Button 
             href="mailto:gabrielezekieleduria@gmail.com"
             target="_blank"
