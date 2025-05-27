@@ -21,11 +21,11 @@ const Header = () => {
         </div>
         <p className="text-xs sm:text-sm text-gray-600 dark:text-white">📍 Manila, Philippines</p>
 
-      <div className=" flex flex-wrap items-center pl-1 pt-0.5">
-        <span className="text-xs sm:text-base text-blue-500 dark:text-red-600 font-bold">Software Developer</span>
+      <div className=" flex flex-wrap items-center pl-1 ">
+        <span className="text-sm sm:text-base text-blue-500 dark:text-red-600 font-bold">Software Developer</span>
       </div>
 
-        <div className="flex gap-3 text-xs sm:text-sm pt-1 ">
+        <div className="flex gap-3 text-xs sm:text-sm pt-0.5 ">
           <Button 
             href="mailto:gabrielezekieleduria@gmail.com"
             target="_blank"
