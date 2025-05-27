@@ -40,11 +40,11 @@ const Designs = React.memo(() => {
         className="w-full h-full"
       >
         {instaImages.map((src, index) => (
-          <SwiperSlide key={index} className="drop-shadow-lg overflow-hidden ">
+          <SwiperSlide key={index} className="drop-shadow-lg  overflow-hidden ">
             <img
               src={src}
               alt={`Instagram design ${index + 1}`}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover rounded-xs"
             />
           </SwiperSlide>
         ))}
