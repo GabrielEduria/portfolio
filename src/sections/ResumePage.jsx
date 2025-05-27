@@ -11,7 +11,7 @@ const ResumePage = () => {
   const { isDarkMode } = useContext(DarkModeContext);
  
   return (
-    <div className="relative w-full min-h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen">
       {isDarkMode ? (
        <div className="absolute inset-0 -z-10  w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)]"></div>
       ) : (
