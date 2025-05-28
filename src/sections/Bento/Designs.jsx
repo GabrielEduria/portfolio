@@ -22,35 +22,49 @@ const instaImages = [
 ];
 
 const Designs = React.memo(() => {
-  return (
-    <div className="p-3">
-      <h2 className="text-2xl font-bold pb-4">Designs</h2>
-      <Swiper
-        spaceBetween={10}
-        slidesPerView={1}
-        breakpoints={{
-          640: { slidesPerView: 3 }
-        }}
-        autoplay={{
-          delay: 4500,
-          disableOnInteraction: false,
-          reverseDirection: true,
-        }}
-        modules={[Autoplay]}
-        className="w-full h-full"
-      >
-        {instaImages.map((src, index) => (
-          <SwiperSlide key={index} className="drop-shadow-lg  overflow-hidden ">
-            <img
-              src={src}
-              alt={`Instagram design ${index + 1}`}
-              className="w-full h-full object-cover rounded-xs"
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
-    </div>
-  );
+      return (
+      <div className="p-3 sm:min-h-2 overflow-visible"> 
+        <h2 className="text-2xl font-bold pb-3 overflow-visible">Designs</h2>
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={2}
+          breakpoints={{
+            640: { slidesPerView: 3 },
+          }}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+            reverseDirection: true,
+          }}
+          modules={[Autoplay]}
+          className="w-full h-full " 
+        >
+          {instaImages.map((src, index) => (
+            <SwiperSlide
+              key={index}
+              className="relative z-0 " 
+            >
+              <div> 
+                <a
+                  href="https://www.instagram.com/cliqueave"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block"
+                >
+                  <img
+                    src={src}
+                    alt={`Instagram design ${index + 1}`}
+                    className="w-full max-h-[180px] object-contain rounded-2xl
+                    cursor-pointer transition-transform duration-400 ease-in-out
+                    hover:scale-95 hover:z-20 "
+                  />
+                </a>
+              </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    );
 });
 
 export default Designs;
