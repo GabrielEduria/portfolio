@@ -38,7 +38,7 @@ const ProjectLists = React.memo(() => {
             <SwiperSlide
               key={index}
               className="w-full min-h-[150px] max-h-[180px] p-3 border border-gray-300 
-              rounded-xl shadow-sm transition flex flex-col justify-between "
+              rounded-xl shadow-sm transition flex flex-col justify-between py-2 gap-3"
               >
                 <div className="flex justify-between items-center ">
                   <h3 className="font-bold text-base sm:text-lg truncate">{card.title}</h3>

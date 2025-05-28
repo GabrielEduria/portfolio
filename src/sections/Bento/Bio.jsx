@@ -10,7 +10,7 @@ const Bio = () => {
 
                <div className="flex items-baseline gap-2 sm:gap-4 mb-4 leading-7">
                 <p className="text-lg font-bold">2018</p>
-                <p className="text-base">Began my Programming Journey ("Hello World")</p>
+                <p className="text-base">("Hello World")</p>
               </div>
 
               <div className="flex items-baseline gap-2 sm:gap-4 mb-4 leading-7">
@@ -30,13 +30,13 @@ const Bio = () => {
 
               <div className="flex items-baseline gap-2 sm:gap-4 mb-4 leading-7">
                 <p className="text-lg font-bold">2023</p>
-                <p className="text-base">Started Freelancing Projects</p>
+                <p className="text-base">Started taking projects</p>
               </div>
 
 
               <div className="flex items-baseline gap-2 sm:gap-4 mb-4 leading-7">
                 <p className="text-lg font-bold">2026</p>
-                <p className="text-base">Expected Graduation</p>
+                <p className="text-base">Expected Graduation 🎓</p>
               </div>
 
                <div className="flex items-baseline gap-2 sm:gap-4 mb-4 leading-7">

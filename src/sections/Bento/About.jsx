@@ -5,15 +5,15 @@ const About = () => {
           About
         </h2>
     <p className="mb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-      A CS student with hands-on experience in mobile app development and web technologies.  
-      I build clean, modern, and scalable websites using Next.js, React, and Tailwind CSS, focused on modern and responsive design. I’m passionate about turning ideas into polished digital solutions 
-      that help businesses grow and users enjoy seamless experiences.
+    A CS student looking for experience as a Front-End Developer. Skilled in using
+     Next.js and React to create clean, user-friendly web apps focused on smooth and 
+     seamless user experiences that help businesses grow and solve real problems.
     </p>
 
 
       <p className="mb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-      Outside of coding, I enjoy coffee, hitting the gym, and staying active with basketball and MMA.  
-      If I’m not working out or keeping up with sports, you’ll find me spending time with my dog, Chonsi.
+      Outside of coding, I enjoy coffee, hitting the gym, and staying active with basketball and other things.  
+      If I’m not working out or keeping up with NBA, you’ll find me spending time with my dog, Chonsi.
       </p>
 
       </div>
