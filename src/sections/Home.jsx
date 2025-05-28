@@ -4,7 +4,6 @@ import { Header, Footer } from "../components/index.js";
 import React, { useContext } from 'react';
 import { DarkModeContext } from '../components/DarkModeContext'; 
 
-
 const Home = () => {
   const { isDarkMode } = useContext(DarkModeContext);
 

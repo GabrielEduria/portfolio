@@ -15,5 +15,5 @@ export {
     NavBar,
     Header,
     Footer,
-    DarkModeContext
+    DarkModeContext,
 }
