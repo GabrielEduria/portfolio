@@ -5,9 +5,11 @@ const About = () => {
           About
         </h2>
     <p className="mb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-    A CS student looking for experience as a Front-End Developer. Skilled in using
-     Next.js and React to create clean, user-friendly web apps focused on smooth and 
-     seamless user experiences that help businesses grow and solve real problems.
+    A CS student eager to gain hands-on experience as a Front-End Developer. 
+    I specialize in building clean, responsive, and user-focused web applications 
+    using Next.js and React. My goal is to create seamless digital experiences 
+    that not only look great but also help businesses grow and solve real-world 
+    problems.
     </p>
 
 

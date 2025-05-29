@@ -8,9 +8,9 @@ const DarkMode = () => {
     <button
       onClick={() => {
         setIsDarkMode(!isDarkMode)}}
-      className="rounded text-gray-600 dark:text-gray-300 cursor-pointer 
+      className="rounded text-gray-600 dark:text-white cursor-pointer 
       transition-transform duration-300 hover:scale-105 flex-shrink-0 
-      sm:pt-3 z-10 pt-1.5 pr-3 sm:pr-0 overflow-x-auto"
+      sm:pt-3 z-10 pt-1 pr-1 sm:pr-3 overflow-x-auto"
       aria-label="Toggle Dark Mode"
     >
       {isDarkMode ? (
