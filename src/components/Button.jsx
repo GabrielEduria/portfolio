@@ -11,7 +11,7 @@ const Button = ({ children, href, onClick }) => {
     text-white bg-[#050708] hover:bg-[#1a1c1e]/90
     focus:ring-[#050708]/50 
 
-    dark:text-black dark:bg-[#e2e8f0] dark:hover:bg-gray-200 dark:focus:ring-white
+    dark:text-black dark:bg-[#fafafa] dark:hover:bg-gray-200 dark:focus:ring-white
   `;
 
   if (href) {
