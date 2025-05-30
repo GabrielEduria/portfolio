@@ -4,9 +4,7 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-html {
-  font-size: clamp(14px, 2vw, 18px);
-}
+
 
 p, a, span, h3 {
   font-family: "Manrope", sans-serif;

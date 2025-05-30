@@ -7,7 +7,7 @@ const About = () => {
     <p className="mb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
     A CS student eager to gain hands-on experience as a Junior Developer.
     I use Next.js and React to build clean, responsive, and user-focused web applications.
-    I help businesses grow — from emerging startups to established service providers — by creating
+    I help brands grow from emerging startups to established service providers by designing
     seamless digital experiences that not only look great but also solve real-world problems.
     </p>
 
