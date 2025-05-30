@@ -4,8 +4,8 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-:root {
-  --scale-factor: calc(1vw / 14.4); 
+html {
+  font-size: clamp(14px, 2vw, 18px);
 }
 
 p, a, span, h3 {
