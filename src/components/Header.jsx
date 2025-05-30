@@ -4,7 +4,7 @@ import DarkMode from "../components/DarkMode";
 
 const Header = () => {
   return (
-   <div className="flex items-stretch gap-1.5 sm:gap-4 pt-5 max-w-full sm:pb-3 z-4">
+   <div className="flex items-stretch gap-1.5 sm:gap-3 mt-5 max-w-full sm:pb-1 z-4">
       <img 
   src={myPicture}
   alt="My Picture"

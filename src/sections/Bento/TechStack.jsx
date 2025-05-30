@@ -4,8 +4,8 @@ const TechStack = () => {
         <div className="p-3">
             <h2 className="text-2xl font-bold mb-2">Tech Stack</h2>
 
-            <div className="mb-2">
-                <p className="font-bold mb-2">Frontend</p>
+            <div className="pb-2">
+                <p className="font-bold pb-2">Frontend</p>
                    <div className="flex flex-wrap gap-3">                  
                     <Tag>JavaScript</Tag>
                     <Tag>TypeScript</Tag>
@@ -16,8 +16,8 @@ const TechStack = () => {
                    </div>
             </div>
 
-            <div className="mb-2">
-            <p className="font-bold mb-2">Backend</p>
+            <div className="pb-2">
+            <p className="font-bold pb-2">Backend</p>
                    <div className="flex flex-wrap gap-3">
                     <Tag>Node.js</Tag>
                     <Tag>MySQL</Tag>
@@ -28,7 +28,7 @@ const TechStack = () => {
             </div>
            
            <div >
-            <p className="font-bold mb-2">Tools</p>
+            <p className="font-bold pb-2">Tools</p>
                    <div className="flex flex-wrap gap-3">
                     <Tag>Adobe Creative Suite</Tag>
                     <Tag>Figma</Tag>
