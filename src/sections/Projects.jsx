@@ -15,7 +15,7 @@ const Projects = () => {
   return (
      <div className="relative w-full min-h-screen ">
       {isDarkMode ? (
-      <div className="relative h-full w-full -z-10 bg-slate-950"><div className="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div><div className="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(255,0,182,.15),rgba(255,255,255,0))]"></div></div>
+      <div className="absolute top-0 z-[-2] h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       ) : (
        <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div></div>
        
@@ -23,7 +23,7 @@ const Projects = () => {
 
       <Motion>
          <NavBar />
-       <div className="w-full max-w-[880px] mx-auto container relative">
+       <div className="w-full max-w-[800px] mx-auto container relative">
      
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 xs:gap-20 p-6">
         {projectCards.map((card, index) => (

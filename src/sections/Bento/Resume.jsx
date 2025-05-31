@@ -17,7 +17,7 @@ const Resume = () => {
     src="/resume.jpg"
     alt="Resume Preview"
     className="rounded-lg object-cover w-full 
-    blur-xs max-h-[180px]  transition transform duration-200 hover:scale-102 p-1"
+    blur-xs max-h-[200px]  transition transform duration-200 hover:scale-102 p-1"
   />
   </Link>
       </div>

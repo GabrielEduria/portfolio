@@ -54,7 +54,7 @@ const Designs = React.memo(() => {
                   <img
                     src={src}
                     alt={`Instagram design ${index + 1}`}
-                    className="w-full max-h-[180px] object-contain rounded-2xl
+                    className="w-full max-h-[180px] object-contain rounded-xl
                     cursor-pointer transition-transform duration-400 ease-in-out
                     hover:scale-95 hover:z-20 "
                   />

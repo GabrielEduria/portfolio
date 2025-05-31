@@ -14,9 +14,9 @@ const DarkMode = () => {
       aria-label="Toggle Dark Mode"
     >
       {isDarkMode ? (
-        <i className="fa-solid fa-moon text-xl"></i>
+        <i className="fa-solid fa-moon text-xl overflow-auto"></i>
       ) : (
-        <i className="fa-solid fa-sun text-xl"></i>
+        <i className="fa-solid fa-sun text-xl overflow-auto"></i>
       )}
     </button>
   );

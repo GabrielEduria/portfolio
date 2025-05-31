@@ -6,10 +6,11 @@ const Header = () => {
   return (
    <div className="flex items-stretch gap-1.5 sm:gap-3 mt-5 max-w-full sm:pb-1 z-4">
       <img 
-  src={myPicture}
-  alt="My Picture"
-  className="w-26 h-auto sm:w-36 sm:h-auto aspect-square object-cover rounded-xl flex-shrink-0"
-/>
+      src={myPicture}
+      alt="My Picture"
+      className="w-26 h-auto sm:w-36 sm:h-auto aspect-square 
+      object-cover rounded-xl flex-shrink-0" 
+    />
 
       <div className="flex-1 min-w-0 ">
         <div className="flex items-start justify-between relative ">

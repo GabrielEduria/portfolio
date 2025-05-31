@@ -23,7 +23,7 @@ const ResumePage = () => {
             <img
               src="/resume.jpg"
               alt="My Resume"
-              className="max-w-full rounded drop-shadow-2xl sm:pt-10 mb-0"
+              className="max-w-full rounded drop-shadow-xl/50 sm:pt-10 mb-0"
             />
             <div className="pt-5 mb-0">
               <Button
