@@ -5,7 +5,8 @@ import {
   NavBar,
   Tag,
   Button,
-  Footer
+  Footer,
+  ImageSpinner
 } from "../components";
 import { projectCards } from "../constants/projectData";
 
@@ -32,10 +33,11 @@ const Projects = () => {
             className="rounded-2xl flex flex-col transform transition duration-300 hover:scale-[1.02] "
           >
             <div className="w-full overflow-hidden rounded-t-2xl flex items-center justify-center sm:h-52">
-              <img
+              <ImageSpinner
                 src={card.image}
                 alt={`Screenshot of ${card.title}`}
-                className="max-h-full max-w-full object-contain rounded-lg"
+                className="max-h-full max-w-full "
+                imgClassName="w-full h-auto object-contain rounded-lg"
               />
             </div>
 

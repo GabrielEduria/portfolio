@@ -2,6 +2,7 @@ import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation } from 'swiper/modules';
 import 'swiper/css';
+import { ImageSpinner } from '../../components';
 
 const instaImages = [
     '/ig-posts/post5.png',
@@ -51,12 +52,13 @@ const Designs = React.memo(() => {
                   rel="noreferrer"
                   className="block"
                 >
-                  <img
+                  <ImageSpinner
                     src={src}
                     alt={`Instagram design ${index + 1}`}
-                    className="w-full max-h-[180px] object-contain rounded-xl
-                    cursor-pointer transition-transform duration-400 ease-in-out
-                    hover:scale-95 hover:z-20 "
+                    className="w-full max-h-[180px]"
+                    imgClassName="w-full max-h-[180px] object-contain rounded-xl
+                      cursor-pointer transition-transform duration-400 ease-in-out
+                      hover:scale-95 hover:z-20"
                   />
                 </a>
               </div>

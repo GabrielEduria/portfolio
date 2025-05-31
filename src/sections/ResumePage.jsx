@@ -4,7 +4,8 @@ import {
           NavBar,
           Motion, 
           Button,
-          Footer 
+          Footer,
+          ImageSpinner 
         } from "../components";
 
 const ResumePage = () => {
@@ -20,10 +21,11 @@ const ResumePage = () => {
       <Motion>
         <NavBar />
          <div className="max-w-[800px] px-2 sm:px-6 lg:px-8 mx-auto z-10 pt-2 sm:pt-5 flex flex-col items-center">
-            <img
+            <ImageSpinner
               src="/resume.jpg"
               alt="My Resume"
-              className="max-w-full rounded drop-shadow-xl/50 sm:pt-10 mb-0"
+              className=" sm:pt-10 mb-0"
+              imgClassName="max-w-full rounded drop-shadow-xl/50"
             />
             <div className="pt-5 mb-0">
               <Button

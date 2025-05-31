@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ImageSpinner } from "../../components"
 
 const Resume = () => {
   return (
@@ -13,11 +14,11 @@ const Resume = () => {
             </Link>        
          </div>
          <Link to="/resume">
-  <img 
+  <ImageSpinner 
     src="/resume.jpg"
     alt="Resume Preview"
-    className="rounded-lg object-cover w-full 
-    blur-xs max-h-[200px]  transition transform duration-200 hover:scale-102 p-1"
+    className="transition transform duration-200 hover:scale-102 p-1"
+    imgClassName="rounded-lg object-cover w-full blur-xs max-h-[200px]  "
   />
   </Link>
       </div>

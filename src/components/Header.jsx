@@ -1,16 +1,17 @@
 import myPicture from "../assets/images/myPicture.jpg";
 import Button from "../components/Button";
 import DarkMode from "../components/DarkMode";
+import ImageSpinner from "../components/ImageSpinner";
 
 const Header = () => {
   return (
    <div className="flex items-stretch gap-1.5 sm:gap-3 mt-5 max-w-full sm:pb-1 z-4">
-      <img 
-      src={myPicture}
-      alt="My Picture"
-      className="w-26 h-auto sm:w-36 sm:h-auto aspect-square 
-      object-cover rounded-xl flex-shrink-0" 
-    />
+        <ImageSpinner
+          src={myPicture}
+          alt="My Picture"
+          className="w-26 h-auto sm:w-36 sm:h-auto aspect-square flex-shrink-0"
+          imgClassName="w-full h-auto object-cover rounded-xl"
+        />
 
       <div className="flex-1 min-w-0 ">
         <div className="flex items-start justify-between relative ">
@@ -37,12 +38,12 @@ const Header = () => {
           </Button>
 
           <Button 
-            href="https://ngl.link/gbrl.zkl"
+            href="https://wa.me/639672534399?text=Hi%2C%20I'm%20interested%20in%20your%20services!"
             target="_blank"
             rel="noopener noreferrer" 
           >
             <i className="fa-solid fa-message pr-2"></i>
-            NGL
+            Message me
           </Button>
         </div>
       </div>

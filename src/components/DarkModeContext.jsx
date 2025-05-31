@@ -5,11 +5,11 @@ export const DarkModeContext = createContext();
 export const DarkModeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     if (typeof window === 'undefined') return false;
-    // Initialize from localStorage or system preference
     const saved = localStorage.getItem('color-theme');
     if (saved === 'dark') return true;
     if (saved === 'light') return false;
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // DEFAULT to light mode always on first load
+    return false;
   });
 
   useEffect(() => {
