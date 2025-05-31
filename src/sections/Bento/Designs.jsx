@@ -27,10 +27,10 @@ const Designs = React.memo(() => {
       <div className="p-3 sm:min-h-2 overflow-visible"> 
         <h2 className="text-2xl font-bold pb-3 overflow-visible">Designs</h2>
         <Swiper
-          spaceBetween={10}
+          spaceBetween={5}
           slidesPerView={2}
           breakpoints={{
-            640: { slidesPerView: 3 },
+            430: { slidesPerView: 3 },
           }}
           autoplay={{
             delay: 3500,

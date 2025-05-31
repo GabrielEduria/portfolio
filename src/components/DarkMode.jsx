@@ -10,13 +10,13 @@ const DarkMode = () => {
         setIsDarkMode(!isDarkMode)}}
       className="rounded text-gray-600 dark:text-white cursor-pointer 
       transition-transform duration-5 hover:scale-120 flex-shrink-0 
-      sm:pt-3 z-10 pt-1 pr-1 sm:pr-3 overflow-auto"
+      sm:pt-3 z-10 pt-1 pr-1 sm:pr-3 "
       aria-label="Toggle Dark Mode"
     >
       {isDarkMode ? (
-        <i className="fa-solid fa-moon text-xl overflow-auto"></i>
+        <i className="fa-solid fa-moon text-xl"></i>
       ) : (
-        <i className="fa-solid fa-sun text-xl overflow-auto"></i>
+        <i className="fa-solid fa-sun text-xl "></i>
       )}
     </button>
   );
