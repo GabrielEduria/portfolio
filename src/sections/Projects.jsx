@@ -24,7 +24,7 @@ const Projects = () => {
 
       <Motion>
          <NavBar />
-       <div className="w-full max-w-[800px] mx-auto container relative">
+       <div className="w-full max-w-[880px] mx-auto container relative">
      
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 xs:gap-20 p-6">
         {projectCards.map((card, index) => (
@@ -49,7 +49,7 @@ const Projects = () => {
                 </span>
               </div>
               <div className="flex flex-col gap-2 mb-3">
-                <p className="text-gray-700 text-sm sm:text-base dark:border-gray-600 dark:text-gray-300">
+                <p className="text-gray-700 text-sm sm:text-base dark:border-gray-600 dark:text-gray-300  leading-relaxed">
                   {card.fullDescription}
                 </p>
                 <div className="flex flex-wrap gap-2 text-sm sm:text-base">

@@ -20,8 +20,6 @@ h1 {
 body {
   background-color: white;
   color: black;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
 
 .dark body {

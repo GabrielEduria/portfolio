@@ -16,7 +16,7 @@ const Home = () => {
         <div className="absolute top-0 right-0 z-[-2] h-full w-full bg-gradient-to-l from-blue-100 to-red-50" />
 
       )}
-      <div className="w-full max-w-[800px] px-2 sm:px-6 lg:px-8 mx-auto z-10">
+      <div className="w-full max-w-[880px] px-2 sm:px-6 lg:px-8 mx-auto z-10">
         <Motion>
           <Header />
           <BentoGrid />
