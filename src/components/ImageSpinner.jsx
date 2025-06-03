@@ -9,7 +9,7 @@ export default function ImageWithDelayedSpinner({ src, alt, className = "", imgC
     if (loaded) {
       timeout = setTimeout(() => {
         setShowImage(true);
-      }, 700); // ensures spinner stays for 0.7s
+      }, 200); // ensures spinner stays for 0.7s
     }
     return () => clearTimeout(timeout);
   }, [loaded]);
