@@ -20,7 +20,6 @@ const TechStack = () => {
             <p className="font-bold pb-2">Backend</p>
                    <div className="flex flex-wrap gap-3">
                     <Tag>Node.js</Tag>
-                    <Tag>MySQL</Tag>
                     <Tag>PHP</Tag>
                     <Tag>Python</Tag>
                     <Tag>Laravel</Tag>
