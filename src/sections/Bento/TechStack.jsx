@@ -11,7 +11,6 @@ const TechStack = () => {
                     <Tag>TypeScript</Tag>
                     <Tag>React</Tag>
                     <Tag>Next.js</Tag>
-                   
                     <Tag>TailwindCSS</Tag>
                    </div>
             </div>
