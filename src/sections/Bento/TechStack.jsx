@@ -26,12 +26,11 @@ const TechStack = () => {
             </div>
            
            <div >
-            <p className="font-bold pb-2">Tools</p>
+            <p className="font-bold pb-2">Tools and Design</p>
                    <div className="flex flex-wrap gap-3">
-                    <Tag>Adobe Creative Suite</Tag>
+                    <Tag>Adobe Creative Cloud</Tag>
                     <Tag>Figma</Tag>
                     <Tag>Framer Motion</Tag>
-                    <Tag>WordPress</Tag>
                    </div>
             </div>
 

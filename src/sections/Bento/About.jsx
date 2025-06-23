@@ -12,8 +12,8 @@ const About = () => {
     </p>
 
     <p className="b-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-    Outside of coding, I enjoy coffee, hitting the gym, and staying active with basketball and other things.  
-    If I`m not working out or keeping up with UFC, you`ll find me spending time with my dog, Chonsi.
+    Outside of coding, I enjoy brewing coffee, hitting the gym, and staying active with basketball and other things.  
+    If I'm not working out or keeping up with UFC, you'll find me spending time with my dog, Chonsi.
     </p>
 
       </div>
