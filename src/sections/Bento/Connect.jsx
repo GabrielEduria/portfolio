@@ -29,7 +29,7 @@ const Connect = () => {
               </a>
 
               <a 
-                href="https://www.facebook.com/GabrielEzekiee/" 
+                href="https://www.facebook.com/gbrl.zkl/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
