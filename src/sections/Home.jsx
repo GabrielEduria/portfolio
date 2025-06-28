@@ -11,10 +11,10 @@ const Home = () => {
     <div className="relative w-full min-h-screen overflow-hidden">
 
       {isDarkMode ? (
-        <div className="absolute top-0 z-[-2] h-full w-full bg-black"></div>
+        <div className="absolute top-0 z-[-2] h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
       ) : (  
-        <div className="absolute top-0 right-0 z-[-2] h-full w-full bg-white" />
-
+        <div className="absolute inset-0 -z-10 h-full w-full bg-gradient-to-r from-red-50 to-cyan-50"></div>
+       
       )}
       <div className="w-full max-w-[880px] px-2 sm:px-6 lg:px-8 mx-auto z-10">
         <Motion>
