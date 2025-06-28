@@ -33,7 +33,7 @@ const Designs = React.memo(() => {
             430: { slidesPerView: 3 },
           }}
           autoplay={{
-            delay: 3500,
+            delay: 3000,
             disableOnInteraction: false,
             reverseDirection: true,
           }}
