@@ -59,12 +59,12 @@ const Projects = () => {
                 </div>
               </div>
               <div className="flex gap-3">
-                {card.url && (
+                {card.url  ? (
                   <Button href={card.url} target="_blank" rel="noopener noreferrer">
                     <i className="fa-solid fa-folder mr-2" />
                     Repo
                   </Button>
-                )}
+                ): null}
                 {card.live ? (
                   <Button href={card.live} target="_blank" rel="noopener noreferrer">
                     <i class="fa-solid fa-arrow-right  -rotate-50 mr-2"/>
