@@ -1,7 +1,3 @@
-import { facebook } from "../../assets/svg"
-import { instagram } from "../../assets/svg"
-import { linkedin } from "../../assets/svg"
-import { spotify } from "../../assets/svg"
 
 const Connect = () => {
     return (
@@ -14,7 +10,7 @@ const Connect = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
-                <img src={linkedin} alt="LinkedIn" className="w-[28px]" />
+                <img src="/svg/linkedin.png" alt="LinkedIn" className="w-[28px]" />
                 <span>LinkedIn</span>
               </a>
 
@@ -34,7 +30,7 @@ const Connect = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
-                <img src={facebook} alt="Facebook" className="w-[28px]" />
+                <img src="/svg/facebook.png" alt="Facebook" className="w-[28px]" />
                 <span>Facebook</span>
               </a>
 
@@ -44,7 +40,7 @@ const Connect = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
-                <img src={instagram} alt="Instagram" className="w-[28px]" />
+                <img src="/svg/instagram.png" alt="Instagram" className="w-[28px]" />
                 <span>Instagram</span>
               </a>
 
@@ -54,7 +50,7 @@ const Connect = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
-                <img src={spotify} alt="Spotify" className="w-[28px]" />
+                <img src="/svg/spotify.png" alt="Spotify" className="w-[28px]" />
                 <span>Spotify</span>
               </a>
             </div>

@@ -58,12 +58,20 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-              {card.url && (
-                <Button href={card.url} target="_blank" rel="noopener noreferrer">
-                  <i className="fa-solid fa-folder pr-2" />
-                  Repo
-                </Button>
-              )}
+              <div className="flex gap-3">
+                {card.url && (
+                  <Button href={card.url} target="_blank" rel="noopener noreferrer">
+                    <i className="fa-solid fa-folder mr-2" />
+                    Repo
+                  </Button>
+                )}
+                {card.live ? (
+                  <Button href={card.live} target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-arrow-right  -rotate-50 mr-2"/>
+                    Visit
+                  </Button>
+                ) : null}
+             </div>
             </div>
           </div>
         ))}

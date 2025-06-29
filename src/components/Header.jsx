@@ -1,4 +1,3 @@
-import myPicture from "../assets/images/myPicture.jpg";
 import Button from "../components/Button";
 import DarkMode from "../components/DarkMode";
 import ImageSpinner from "../components/ImageSpinner";
@@ -7,7 +6,7 @@ const Header = () => {
   return (
    <div className="flex items-stretch gap-1.5 sm:gap-3 mt-5 max-w-full sm:pb-1 z-4">
         <ImageSpinner
-          src={myPicture}
+          src={"/images/myPicture.jpg"}
           alt="My Picture"
           className="w-26 h-auto sm:w-36 sm:h-auto aspect-square flex-shrink-0"
           imgClassName="w-full h-auto object-cover rounded-xl"

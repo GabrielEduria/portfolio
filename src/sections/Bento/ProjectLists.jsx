@@ -2,8 +2,6 @@ import { Tag } from "../../components";
 import { Link } from "react-router-dom"
 import { projectCards } from "../../constants/projectData";
 import React from 'react';
-
-// Swiper.js Carousel
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css';
