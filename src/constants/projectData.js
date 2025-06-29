@@ -4,7 +4,7 @@ export const projectCards = [
     year: "2025",
     image: "/images/enconstruction.png",
     shortDescription: "A custom landing website for a construction company",
-    fullDescription: "Built tailor-made from the ground up to meet the company’s specific requirements right from the start, this custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
+    fullDescription: "Built tailor-made for the company’s specific requirements right from the start, Custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
     tags: ["Nextjs", "TailwindCSS", "Framer Motion"],
     url: null,
     live: "https://testenconstruction.vercel.app/"
