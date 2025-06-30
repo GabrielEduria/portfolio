@@ -31,7 +31,7 @@ const Connect = () => {
                 className="flex items-center gap-3 w-fit transition transform duration-200 hover:scale-105"
               >
                 <img src="/svg/facebook.png" alt="Facebook" className="w-[28px]" />
-                <span>Facebook</span>
+                <span>Facebook</span> 
               </a>
 
               <a 

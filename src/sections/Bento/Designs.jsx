@@ -20,7 +20,7 @@ const instaImages = [
     '/ig-posts/post9.2.png',   
     '/ig-posts/post10.1.png',   
     '/ig-posts/Post2.1.png',
-    '/ig-posts/post7.1.png',
+    '/ig-posts/post7.1.png',  
     '/ig-posts/post9.png',
 
 ];
