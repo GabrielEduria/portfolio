@@ -29,7 +29,7 @@ const ResumePage = () => {
             />
             <div className="pt-5 mb-0">
               <Button
-                href=""
+                href="https://drive.google.com/drive/u/0/folders/1ZtFQLhdJOGHGF7oEkPdbTywYdg4d7JCr";
                 download="Gabriel_Ezekiel_Resume.jpg"
               >
                 <i className="fa-solid fa-download text-xs pr-3"></i>
