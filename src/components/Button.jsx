@@ -4,7 +4,7 @@ const Button = ({ children, href, onClick }) => {
   const commonClasses = `
     font-semibold cursor-pointer
     rounded-lg inline-flex items-center text-nowrap
-    px-3 sm:px-10 py-1.5 text-[12px]  w-fit
+    px-2 sm:px-10 py-1.5 text-[10px] md:text-[12px]  w-fit
     transition transform duration-200 hover:scale-105 z-9
     backdrop-filter backdrop-blur-sm bg-opacity-80 p-1
     
