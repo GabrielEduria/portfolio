@@ -8,7 +8,7 @@ const Header = () => {
         <ImageSpinner
           src={"/images/myPicture.jpg"}
           alt="My Picture"
-          className="w-23 h-auto sm:w-36 sm:h-auto aspect-square flex-shrink-0"
+          className="w-24 h-auto sm:w-36 sm:h-auto aspect-square flex-shrink-0"
           imgClassName="w-full h-auto object-cover rounded-xl"
         />
       <div className="flex-1 min-w-0 ">
@@ -22,10 +22,10 @@ const Header = () => {
         <p className="text-xs sm:text-sm text-gray-600 dark:text-white">📍 Manila, Philippines</p>
 
       <div className=" flex flex-wrap items-center pl-0.5 ">
-        <span className="text-sm sm:text-base text-blue-500 dark:text-red-500 font-bold">Software Developer</span>
+        <span className="text-sm sm:text-base text-blue-500 dark:text-red-500 pb-0.5 font-bold">Software Developer</span>
       </div>
 
-        <div className="flex gap-3.5 text-xs sm:text-sm  sm:pt-1 text-wrap">
+        <div className="flex gap-3 text-xs sm:text-sm  sm:pt-1 text-wrap">
           <Button 
             href="mailto:gabrielezekieleduria@gmail.com"
             target="_blank"
