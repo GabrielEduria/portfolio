@@ -1,6 +1,6 @@
 export const projectCards = [
   {
-    title: "En-Construction Landing Page",
+    title: "En-Construction",
     year: "2025",
     image: "/images/enconstruction.png",
     shortDescription: "A custom landing website for a construction company",
