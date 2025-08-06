@@ -5,9 +5,8 @@ const About = () => {
           About
         </h2>
     <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-    A CS student based in Asia, I use React + Next.js to build clean and user-friendly web applications 
-     for brands, startups, and businesses. I Bias shipping fast, creating responsive web apps, and helping 
-     businesses turn ideas into real results.
+     A CS student based in Asia, I use React + Next.js to build clean and user-friendly Web Applications 
+     for brands, startups, and businesses.
     </p>
 
     <p className="b-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
