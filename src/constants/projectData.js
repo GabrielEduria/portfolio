@@ -1,6 +1,6 @@
 export const projectCards = [
   {
-    title: "En-Construction",
+    title: "EN-Construction",
     year: "2025",
     image: "/images/enconstruction.png",
     shortDescription: "A custom landing website for a construction company",
@@ -10,10 +10,10 @@ export const projectCards = [
     live: null
   },
   {
-    title: "Nike Landing Page",
+    title: "Nike landing page mockup",
     year: "2023",
     image: "/images/Nike1.jpg",
-    shortDescription: "A dynamic responsive Nike full mockup landing Page",
+    shortDescription: "A dynamic responsive Nike full mockup landing page",
     fullDescription: "A fully responsive and dynamic Nike landing page mockup designed to showcase the brand’s latest products with sleek, modern UI. Built using HTML, Tailwind CSS, and JavaScript, it features smooth animations, clear calls-to-action, and optimized layouts for all devices. Focused on delivering a fast, engaging user experience that highlights product visuals and boosts brand presence.",
     tags: ["React", "TailwindCSS", "CMS"],
     url: "https://github.com/GabrielEduria/Nike_Landing_Page",
