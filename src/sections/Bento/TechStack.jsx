@@ -30,7 +30,7 @@ const TechStack = () => {
                    <div className="flex flex-wrap gap-3">
                     <Tag>Adobe Creative Cloud</Tag>
                     <Tag>Figma</Tag>
-                    <Tag>Framer Motion</Tag>
+                    <Tag>Blender</Tag>
                    </div>
             </div>
 
