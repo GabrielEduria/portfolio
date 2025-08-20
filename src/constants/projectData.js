@@ -5,7 +5,7 @@ export const projectCards = [
     image: "/images/enconstruction.png",
     shortDescription: "A custom landing website for a construction company",
     fullDescription: "Built tailor-made for the company’s specific requirements right from the start, Custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
-    tags: ["Nextjs", "TailwindCSS", "Framer Motion"],
+    tags: ["React", "TailwindCSS", "Framer Motion", "NextJs"],
     url: "https://github.com/GabrielEduria/testenconstruction",
     live: null
   },
@@ -34,8 +34,8 @@ export const projectCards = [
     year: "2023",
     image: "/images/LuciMoto.png",
     shortDescription: "A Ecommerce Website app for a motorcycle local shop",
-    fullDescription: "A full-stack e-commerce web application developed for a local motorcycle shop. Features include product listings, search and filtering, cart management, and secure checkout. Built with React, Node.js, and MongoDB to support real-time updates, inventory control, and a mobile-friendly user experience tailored to local buyers",
-    tags: ["HTML / CSS", "VanillaJS", "mySQL"],
+    fullDescription: "A full-stack e-commerce web application developed for a local motorcycle shop. Features include product listings, search and filtering, cart management, and secure checkout to support real-time updates, inventory control, and a mobile-friendly user experience tailored to local buyers",
+    tags: ["HTML / CSS", "Javascript", "mySQL"],
     url: "https://github.com/GabrielEduria/Luci-Moto-/tree/main",
     live: null
   },
@@ -63,9 +63,9 @@ export const projectCards = [
     title: "Catigan Dental Clinic",
     year: "2022",
     image: "/images/catigan1.jpg",
-    shortDescription: "A Web landing page for a dental clinic",
-    fullDescription: "A responsive web landing page built for a local dental clinic. Designed with HTML, Tailwind CSS, and JavaScript to highlight services, patient testimonials, and contact information. Focused on clean UI, accessibility, and conversion-driven layout to attract new clients.",
-    tags: ["HTML/CSS", "VanillaJs"],
+    shortDescription: "A web landing page for a dental clinic",
+    fullDescription: "Designed and developed a responsive web landing page for a local dental clinic, applying modern front-end technologies, good front-end design principles, and deployment tools using HTML, CSS, and JavaScript. ",
+    tags: ["HTML/CSS", "Javascript"],
     live: null
   },
 ];
