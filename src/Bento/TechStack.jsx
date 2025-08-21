@@ -1,4 +1,4 @@
-import { Tag } from "../../components"
+import { Tag } from "../components"
 const TechStack = () => {
     return (
         <div className="p-3">

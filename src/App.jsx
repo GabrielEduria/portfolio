@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
-import { Home, Projects, ResumePage } from "./sections"
+import { Home, Projects, ResumePage } from "./Routes"
 import ScrollToTop from "./components/ScrollToTop";
  
 

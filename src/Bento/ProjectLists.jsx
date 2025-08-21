@@ -1,6 +1,6 @@
-import { Tag } from "../../components";
+import { Tag } from "../components";
 import { Link } from "react-router-dom"
-import { projectCards } from "../../constants/projectData";
+import { projectCards } from "../constants/projectData";
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';

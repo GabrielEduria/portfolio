@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ImageSpinner } from "../../components"
+import { ImageSpinner } from "../components"
 
 const Resume = () => {
   return (
