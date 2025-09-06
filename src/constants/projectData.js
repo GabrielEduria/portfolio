@@ -7,7 +7,7 @@ export const projectCards = [
     fullDescription: "Built tailor-made for the company’s specific requirements right from the start, Custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
     tags: ["React", "TailwindCSS", "Framer Motion", "NextJs"],
     url: "https://github.com/GabrielEduria/testenconstruction",
-    live: null
+    live: "https://test-enconstruction.vercel.app/",
   },
   {
     title: "Nike landing page mockup",
@@ -17,7 +17,7 @@ export const projectCards = [
     fullDescription: "A fully responsive and dynamic Nike landing page mockup designed to showcase the brand’s latest products with sleek, modern UI. Built using HTML, Tailwind CSS, and JavaScript, it features smooth animations, clear calls-to-action, and optimized layouts for all devices. Focused on delivering a fast, engaging user experience that highlights product visuals and boosts brand presence.",
     tags: ["React", "TailwindCSS", "CMS"],
     url: "https://github.com/GabrielEduria/Nike_Landing_Page",
-    live: null
+    live: "https://nike-landing-page-ten-snowy.vercel.app/"
   },
   {
     title: "NutriTakes",
