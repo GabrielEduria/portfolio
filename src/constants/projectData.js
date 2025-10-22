@@ -25,7 +25,7 @@ export const projectCards = [
     image: "/images/NutriTakes.png",
     shortDescription: "A Mobile Application food image classification with real time nutritional content analysis using AI",
     fullDescription: "A mobile application that uses image classification and a trained AI model to identify food items and provide real-time nutritional content analysis. Built with TensorFlow Lite and integrated into a mobile-friendly UI, it demonstrates practical application of computer vision, AI model deployment, and health-focused technology.",
-    tags: ["Flutter", "Tensorflow", "Google Colab" ],
+    tags: ["React Native", "Tensorflow", "OpenAI", "Supabase" ],
     url: "https://github.com/GabrielEduria/NutriTakes-",
     live: null
   },
