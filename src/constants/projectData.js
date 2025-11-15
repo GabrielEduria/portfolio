@@ -2,7 +2,7 @@ export const projectCards = [
     {
     title: "StockQer",
     year: "2025",
-    image: "/images/StockQer",
+    image: "/images/StockQer-homepage1.png",
     shortDescription: "ully personalized financial dashboard and live market tracker,",
     fullDescription: "uilt as a fully personalized financial dashboard and live market tracker, StockQer helps users monitor stocks, manage watchlists, and stay updated with real-time market news. The platform combines a clean, modern interface with powerful server-side functionality, delivering an intuitive experience for tracking investments. Features include event-driven notifications, seamless sign-up and authentication, and integration with live market APIs for accurate financial data. Optimized for speed and responsiveness, the app ensures users can stay informed and make trading decisions on any device.",
     tags: ["Next.Js", "TypeScript", "Tailwind CSS", "Inngest", "MongoDB Atlas", "Finnhub API"],
