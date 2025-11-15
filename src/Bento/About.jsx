@@ -5,7 +5,7 @@ const About = () => {
           About
         </h2>
         <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-          A CS student based in Asia, Specializing in React to build clean web app
+          A Full-Stack developer based in Asia, Specializing in React to build clean web app
           for brands, startups, and businesses. driven by curiosity and growth, I find real 
           satisfaction in building and designing things I enjoy.
         </p>
