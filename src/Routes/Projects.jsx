@@ -31,7 +31,7 @@ const Projects = () => {
                       key={index}
                       className="rounded-2xl flex flex-col transform transition duration-300 hover:scale-[1.02] "
                     >
-                      <div className="w-full overflow-hidden rounded-t-2xl flex items-center justify-center sm:h-52">
+                      <div className="w-full overflow-hidden rounded-t-2xl flex items-center justify-center ">
                         <ImageSpinner
                           src={card.image}
                           alt={`Screenshot of ${card.title}`}

@@ -19,6 +19,16 @@ export const projectCards = [
     url: "https://github.com/GabrielEduria/testenconstruction",
     live: null
   },
+    {
+    title: "NutriTakes",
+    year: "2025",
+    image: "/images/Nutritakes.png",
+    shortDescription: "A Mobile Application food image classification with real time nutritional content analysis using AI",
+    fullDescription: "A mobile application that uses image classification and a trained AI model to identify food items and provide real-time nutritional content analysis. Built with TensorFlow Lite and integrated into a mobile-friendly UI, it demonstrates practical application of computer vision, AI model deployment, and health-focused technology.",
+    tags: ["React Native", "Tensorflow", "OpenAI", "Supabase", "Machine learning" ],
+    url: "https://github.com/GabrielEduria/NutriTakes-",
+    live: null
+  },
   {
     title: "Nike landing page",
     year: "2023",
@@ -27,16 +37,6 @@ export const projectCards = [
     fullDescription: "A fully responsive and dynamic Nike landing page mockup designed to showcase the brand’s latest products with sleek, modern UI. Built using HTML, Tailwind CSS, and JavaScript, it features smooth animations, clear calls-to-action, and optimized layouts for all devices. Focused on delivering a fast, engaging user experience that highlights product visuals and boosts brand presence.",
     tags: ["React", "TailwindCSS", "CMS"],
     url: "https://github.com/GabrielEduria/Nike_Landing_Page",
-    live: null
-  },
-  {
-    title: "NutriTakes",
-    year: "2025",
-    image: "/images/NutriTakes.png",
-    shortDescription: "A Mobile Application food image classification with real time nutritional content analysis using AI",
-    fullDescription: "A mobile application that uses image classification and a trained AI model to identify food items and provide real-time nutritional content analysis. Built with TensorFlow Lite and integrated into a mobile-friendly UI, it demonstrates practical application of computer vision, AI model deployment, and health-focused technology.",
-    tags: ["React Native", "Tensorflow", "OpenAI", "Supabase" ],
-    url: "https://github.com/GabrielEduria/NutriTakes-",
     live: null
   },
   {
