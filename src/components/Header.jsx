@@ -36,7 +36,7 @@ const Header = () => {
           </Button>
 
           <Button 
-            href="https://wa.me/639672534399?text=Hi%2C%20I'm%20interested%20in%20your%20services!"
+            href="https://wa.me/639672534399?text=Hi!"
             target="_blank"
             rel="noopener noreferrer" 
           >
