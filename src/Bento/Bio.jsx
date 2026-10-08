@@ -29,7 +29,7 @@ const bio = [
   },
   {
     year: '2026',
-    description: 'Started Armwrestling as a sport'
+    description: 'Founded and started a SMMA Digital Agency'
   },
   {
     year: '2026',

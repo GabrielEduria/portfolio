@@ -5,16 +5,16 @@ const About = () => {
           About
         </h2>
         <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-          A Full-Stack developer based in Asia, Specializing in React to build clean web app
-          for brands, startups, and businesses. driven by curiosity and growth, I find real 
-          satisfaction in building and designing things I enjoy.
+            I'm a full-stack developer based in the Philippines, specializing in React and modern web tooling to build clean, 
+            fast web apps for brands, startups, and local businesses. I recently graduated with a degree in Bachelor Science Computer Science, and 
+            since then I've been turning what I learned in school into real, shipped projects. I'm driven by curiosity and growth, 
+            and I get real satisfaction from designing and building things I'd actually want to use.
         </p>
 
         <p className="b-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-          When I'm not coding, I enjoy brewing coffee, hitting the gym, and staying active with basketball and other things.  
-          If I'm not working out or keeping up with UFC, you'll find me spending time with my dog, Chonsi.
+          When I'm not coding, you can catch me at the gym or brewing a good cup of coffee. My sport these days is arm wrestling, and I'm currently
+          learning MMA. 
         </p>
-
       </div>
     )
 }

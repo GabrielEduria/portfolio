@@ -25,7 +25,7 @@ const ResumePage = () => {
             <p>Old Version**</p>
           </div>
             <ImageSpinner
-              src="/resume.jpg"
+              src="/resume.png"
               alt="My Resume"
               className=" sm:pt-5 mb-0"
               imgClassName="max-w-full rounded drop-shadow-xl/50"

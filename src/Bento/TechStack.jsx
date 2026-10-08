@@ -26,11 +26,13 @@ const TechStack = () => {
             </div>
            
            <div >
-            <p className="font-bold pb-2">Tools and Design</p>
+            <p className="font-bold pb-2">AI & Data</p>
                    <div className="flex flex-wrap gap-3">
-                    <Tag>Adobe Creative Cloud</Tag>
-                    <Tag>Figma</Tag>
-                    <Tag>Blender</Tag>
+                    <Tag>LLM integration</Tag>
+                    <Tag>RAG</Tag>
+                    <Tag>Vector databases</Tag>
+                    <Tag>LangChain or LlamaIndex</Tag>
+                    <Tag>Vector or Databases</Tag>
                    </div>
             </div>
 
