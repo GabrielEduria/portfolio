@@ -66,7 +66,7 @@ const Projects = () => {
                           ): null}
                           {card.live ? (
                             <Button href={card.live} target="_blank" rel="noopener noreferrer">
-                              <i class="fa-solid fa-arrow-right  -rotate-50 mr-2"/>
+                              <i className="fa-solid fa-arrow-right  -rotate-50 mr-2"/>
                               Visit
                             </Button>
                           ) : null}

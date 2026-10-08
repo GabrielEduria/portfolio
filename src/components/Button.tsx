@@ -2,6 +2,8 @@
 interface ButtonProps {
   children: React.ReactNode;
   href?: string;
+  target?: string;
+  rel?: string;
   onClick?: (event: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
 }
 

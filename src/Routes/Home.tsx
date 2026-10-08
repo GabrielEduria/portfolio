@@ -1,5 +1,5 @@
 import { Motion } from "../components/index.js";
-import BentoGrid from "../Bento/BentoGrid.jsx";
+import BentoGrid from "../bento/BentoGrid.jsx";
 import { Header, Footer } from "../components/index.js";
 import React, { useContext } from 'react';
 import { DarkModeContext } from '../components/DarkModeContext.jsx'; 

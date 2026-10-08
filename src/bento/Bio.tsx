@@ -38,7 +38,7 @@ const bio = [
   },
   {
     year: '2026',
-    description: 'Graduated from college with a degree of Bachelor of Science in Computer Science 🎓' 
+    description: <TextDesign>Graduated from college with a degree of Bachelor of Science in Computer Science 🎓</TextDesign>
   }
 ]
 
