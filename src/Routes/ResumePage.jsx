@@ -10,7 +10,24 @@ import {
 
 const ResumePage = () => {
   const { isDarkMode } = useContext(DarkModeContext);
- 
+
+  const downloadGoogleDrivePDF = () => {
+    const fileId = '1ek8UqA-RXS2hwLgDkYw9wZRzCj5VW8tL';
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+
+    // Create a temporary hidden anchor element
+    const link = document.createElement('a');
+    link.href = downloadUrl;
+
+    // The 'download' attribute forces the browser to download instead of opening it
+    link.setAttribute('download', 'GabrielEduria.pdf');
+
+    // Append to body, trigger click, and remove it
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <div className="relative w-full min-h-screen">
       {isDarkMode ? (
@@ -30,8 +47,7 @@ const ResumePage = () => {
             />
             <div className="pt-5 mb-0">
               <Button
-                href="https://drive.google.com/drive/u/0/folders/1ZtFQLhdJOGHGF7oEkPdbTywYdg4d7JCr"
-                download="Gabriel_Ezekiel_Resume.pdf"
+                onClick={downloadGoogleDrivePDF}
               >
                 <i className="fa-solid fa-download text-xs pr-3"></i>
                 Download Resume
