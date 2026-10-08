@@ -15,10 +15,10 @@ const Resume = () => {
          </div>
          <Link to="/resume">
   <ImageSpinner 
-    src="/resume.jpg"
+    src="/resume.png"
     alt="Resume Preview"
     className="transition transform duration-200 hover:scale-102 p-1"
-    imgClassName="rounded-lg object-cover w-full blur-xs max-h-[200px]  "
+    imgClassName="rounded-lg object-cover w-full blur-[2px] max-h-[200px]  "
   />
   </Link>
       </div>
