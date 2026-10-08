@@ -1,14 +1,5 @@
 export const projectCards = [
-    {
-    title: "StockQer",
-    year: "2025",
-    image: "/images/Stockqer-homepage1.png",
-    shortDescription: "A Fully personalized financial dashboard and live market tracker,",
-    fullDescription: "A fully personalized financial dashboard and live market tracker, StockQer helps users monitor stocks, manage watchlists, and stay updated with real-time market news. The platform combines a clean, modern interface with powerful server-side functionality, delivering an intuitive experience for tracking investments. Features include event-driven notifications, seamless sign-up and authentication, and integration with live market APIs for accurate financial data. Optimized for speed and responsiveness, the app ensures users can stay informed and make trading decisions on any device.",
-    tags: ["Next.Js", "TypeScript", "Tailwind CSS", "Inngest", "MongoDB Atlas", "Finnhub API"],
-    url: "https://github.com/GabrielEduria/StockQer",
-    live: "https://stockqer.vercel.app"
-  },
+
   {
     title: "EN-Construction",
     year: "2025",
@@ -16,8 +7,7 @@ export const projectCards = [
     shortDescription: "A custom landing website for a construction company",
     fullDescription: "Built tailor-made for the company’s specific requirements right from the start, Custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
     tags: ["React", "TailwindCSS", "Framer Motion", "NextJs"],
-    url: "https://github.com/GabrielEduria/testenconstruction",
-    live: null
+    live: "https://testenconstruction.vercel.app/en-construction"
   },
     {
     title: "NutriTakes",
@@ -38,6 +28,15 @@ export const projectCards = [
     tags: ["React", "TailwindCSS", "CMS"],
     url: "https://github.com/GabrielEduria/Nike_Landing_Page",
     live: null
+  },
+      {
+    title: "StockQer",
+    year: "2025",
+    image: "/images/Stockqer-homepage1.png",
+    shortDescription: "A Fully personalized financial dashboard and live market tracker,",
+    fullDescription: "A fully personalized financial dashboard and live market tracker, StockQer helps users monitor stocks, manage watchlists, and stay updated with real-time market news. The platform combines a clean, modern interface with powerful server-side functionality, delivering an intuitive experience for tracking investments. Features include event-driven notifications, seamless sign-up and authentication, and integration with live market APIs for accurate financial data. Optimized for speed and responsiveness, the app ensures users can stay informed and make trading decisions on any device.",
+    tags: ["Next.Js", "TypeScript", "Tailwind CSS", "Inngest", "MongoDB Atlas", "Finnhub API"],
+    url: "https://github.com/GabrielEduria/StockQer",
   },
   {
     title: "Luci Moto",
