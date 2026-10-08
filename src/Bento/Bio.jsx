@@ -5,7 +5,7 @@ const bio = [
   },
   {
     year: '2018',
-    description: '("Hello World")'
+    description: 'printf("Hello, World!/n)'
   },
   {
     year: '2019',
@@ -21,17 +21,22 @@ const bio = [
   },
   {
     year: '2023',
-    description: 'Started taking projects'
+    description: 'Started freelancing'
+  },
+  {
+    year: '2025',
+    description: 'Built numerous projects and learned a lot of new things'
   },
   {
     year: '2026',
-    description: 'Expected Graduation 🎓'
+    description: 'Started Armwrestling as a sport'
   },
   {
     year: '2026',
-    description: 'And Many More 🤣😉🤞🌹' 
+    description: 'Graduated from college with a degree of Bachelor of Science in Computer Science 🎓' 
   }
 ]
+
 const Bio = () => {
     return (
       <div className="p-3">
