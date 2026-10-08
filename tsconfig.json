@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,         // Allows mixing .jsx and .tsx files
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": false,          // Keep false initially to avoid immediate breakages
+    "module": "esnext",
+    "moduleResolution": "node",
+    "ignoreDeprecations": "6.0",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"       // Tells TypeScript how to handle JSX syntax
+  },
+  "include": ["src"]
+}

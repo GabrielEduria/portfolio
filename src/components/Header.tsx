@@ -22,24 +22,18 @@ const Header = () => {
         <p className="text-xs sm:text-sm text-gray-600 dark:text-white">📍 Manila, Philippines</p>
 
       <div className=" flex flex-wrap items-center pl-0.5 ">
-        <span className="text-sm sm:text-base  dark:text-purple-500 pb-0.5 font-semibold">Full-Stack Developer | React · Python · RAG</span>
+        <span className="text-sm sm:text-base text-blue-500 dark:text-purple-500 pb-0.5 font-semibold">Full-Stack Developer | React · Python · RAG</span>
       </div>
 
         <div className="flex gap-3 text-xs sm:text-sm pt-0.5 sm:pt-1 text-wrap">
           <Button 
-            href="mailto:gabrielezekieleduria@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer" 
-          >
+            href="mailto:gabrielezekieleduria@gmail.com"           >
             <i className="fa-solid fa-envelope pr-2"></i>
             Email Me
           </Button>
 
           <Button 
-            href="https://wa.me/639672534399?text=Hi!"
-            target="_blank"
-            rel="noopener noreferrer" 
-          >
+            href="https://wa.me/639672534399?text=Hi!">
             <i className="fa-solid fa-message pr-2"></i>
             Message me
           </Button>

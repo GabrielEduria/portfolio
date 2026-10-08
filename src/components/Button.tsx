@@ -1,4 +1,11 @@
-const Button = ({ children, href, onClick }) => {
+
+interface ButtonProps {
+  children: React.ReactNode;
+  href?: string;
+  onClick?: (event: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => void;
+}
+
+const Button = ({ children, href, onClick }: ButtonProps) => {
   const isExternal = href?.startsWith("http") || href?.startsWith("mailto:");
 
   const commonClasses = `
