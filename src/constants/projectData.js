@@ -1,5 +1,8 @@
-export const projectCards = [
 
+
+//all the project data is stored here, this is used to populate the project cards on the portfolio page
+
+export const projectCards = [
   {
     title: "EN-Construction",
     year: "2025",
@@ -8,6 +11,15 @@ export const projectCards = [
     fullDescription: "Built tailor-made for the company’s specific requirements right from the start, Custom landing website showcases key services and completed projects with a clean, modern design. The UI/UX was thoughtfully crafted to create an intuitive and engaging user experience. Featuring modular components, clear calls-to-action, and multiple contact options, the site is optimized for fast performance and responsiveness across devices, effectively driving client engagement and business growth.",
     tags: ["React", "TailwindCSS", "Framer Motion", "NextJs"],
     live: "https://testenconstruction.vercel.app/en-construction"
+  },
+  {
+    title: "Gabbers",
+    year: "2026",
+    image: "/images/gabbers.png",
+    shortDescription: "An invoicing SaaS for freelancers and small studios",
+    fullDescription: "Designed and built end to end as a product, not a template. Gabbers lets freelancers and small studios turn a few line items into a polished, A4-ready invoice with a live preview, automatic subtotal, discount and VAT calculations, and one-click PDF export. It defaults to Philippine peso with 12% VAT, supports multiple currencies, and lets users add Wise payment details so clients know how to pay. Secure Firebase email and password authentication with email verification and password recovery keeps each account's saved invoices separate. The Apple-inspired interface features a floating glass navbar, light and dark themes, a full landing page with pricing, a custom 404 page, and a responsive layout that holds content to a clean 960px width.",
+    tags: ["React", "Vite", "TailwindCSS", "Firebase Auth", "jsPDF"],
+    live: "https://your-gabbers-url.vercel.app"
   },
     {
     title: "NutriTakes",
