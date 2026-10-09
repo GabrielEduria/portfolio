@@ -1,4 +1,3 @@
-import TextDesign from "../components/TextDesign"
 
 const bio = [
   {
@@ -19,14 +18,12 @@ const bio = [
   },
   {
     year: '2022',
-    description: (
-    <>Started studying <TextDesign> Computer Science </TextDesign></> 
-
-    )
+    description: 'Started studying Computer Science'
+    
   },
   {
     year: '2023',
-    description: 'Started freelancing'
+    description: 'Started freelancing',
   },
   {
     year: '2025',
@@ -38,7 +35,7 @@ const bio = [
   },
   {
     year: '2026',
-    description: <TextDesign>Graduated from college with a degree of Bachelor of Science in Computer Science 🎓</TextDesign>
+    description: 'Graduated from college with a degree of Bachelor of Science in Computer Science 🎓',
   }
 ]
 
