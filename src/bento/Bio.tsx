@@ -31,11 +31,11 @@ const bio = [
   },
   {
     year: '2026',
-    description: 'Founded and started a SMMA Digital Agency'
+    description: 'Founded Blairr Digital'
   },
   {
     year: '2026',
-    description: 'Graduated from college with a degree of Bachelor of Science in Computer Science 🎓',
+    description: 'Got a university degree of BSc Computer Science 🎓',
   }
 ]
 
@@ -47,7 +47,7 @@ const Bio = () => {
                 return( 
                   <div 
                     key={index} 
-                    className="flex items-baseline gap-2 sm:gap-4 pb-4 leading-7"
+                    className="flex items-baseline gap-2 sm:gap-4 pb-3 leading-7"
                   >
                     <p className="text-lg font-bold">{info.year}</p>
                     <p className="text-base">{info.description}</p>
