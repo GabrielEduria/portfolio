@@ -17,7 +17,7 @@ export const projectCards = [
     year: "2026",
     image: "/images/gabbers.png",
     shortDescription: "An invoicing SaaS for freelancers and small studios",
-    fullDescription: "Designed and built end to end as a product, not a template. Gabbers lets freelancers and small studios turn a few line items into a polished, A4-ready invoice with a live preview, automatic subtotal, discount and VAT calculations, and one-click PDF export. It defaults to Philippine peso with 12% VAT, supports multiple currencies, and lets users add Wise payment details so clients know how to pay. Secure Firebase email and password authentication with email verification and password recovery keeps each account's saved invoices separate. The Apple-inspired interface features a floating glass navbar, light and dark themes, a full landing page with pricing, a custom 404 page, and a responsive layout that holds content to a clean 960px width.",
+    fullDescription: "Gabbers is an invoicing app built for freelancers, contractors, and small studios. It simplifies billing with automatic subtotal, discount, and VAT calculations, a live invoice preview, and one-click PDF export. Designed with Philippine users in mind, it defaults to PHP and 12% VAT while supporting USD, EUR, and GBP. Users can also include their Wise payment details and securely manage saved invoices through email authentication with verification and password recovery. Built with a clean, responsive interface, Gabbers makes creating professional invoices simple and straightforward.",
     tags: ["React", "Vite", "TailwindCSS", "Firebase Auth", "jsPDF"],
     live: "https://gabbers-six.vercel.app/"
   },
