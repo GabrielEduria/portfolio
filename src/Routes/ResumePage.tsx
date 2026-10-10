@@ -12,7 +12,7 @@ const ResumePage = () => {
   const { isDarkMode } = useContext(DarkModeContext);
 
   const downloadGoogleDrivePDF = () => {
-    const fileId = '1ek8UqA-RXS2hwLgDkYw9wZRzCj5VW8tL';
+    const fileId = '1rsEVlEEX9DAYvA5idjRz48O5KzK0VI3P';
     const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
 
     // Create a temporary hidden anchor element
