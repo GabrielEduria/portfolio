@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import DarkMode from "../components/DarkMode";
 
 const NavBar = () => {
@@ -8,7 +8,10 @@ const NavBar = () => {
     "/": "Home",
   };
 
-  const CurrentPage = PathToPageTitle[location.pathname] || "";
+  const { pathname } = useLocation();
+  const CurrentPage = pathname.startsWith("/projects/")
+    ? "Projects"
+    : PathToPageTitle[pathname] || "";
   return (
     <div className="sticky top-0 z-50 pt-3">
      <div className="

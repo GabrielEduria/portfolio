@@ -1,3 +1,4 @@
+import TextDesign from "../components/TextDesign";
 
 const About = () => {
     return (
@@ -6,9 +7,10 @@ const About = () => {
           About
         </h2>
         <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
-            I specialize in React and modern web tooling to build clean, fast web apps for brands, 
-            startups, and local businesses. I recently graduated with a degree in Bachelor of Science in 
-            Computer Science, and since then I've been turning what I learned in school into real, shipped projects.
+            I specialize in <TextDesign variant="skill">React and modern web tooling</TextDesign> to
+            build <TextDesign variant="role">clean, fast web apps</TextDesign> for brands,
+            startups, and local businesses. I recently graduated with a degree in <TextDesign variant="achievement">Bachelor of Science in
+            Computer Science</TextDesign>, and since then I've been turning what I learned in school into <TextDesign variant="achievement">real, shipped projects</TextDesign>.
         </p>
 
         <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">

@@ -6,6 +6,7 @@ import NavBar from "./NavBar";
 import Header from "./Header";
 import Footer from "./Footer";
 import ImageSpinner from "./ImageSpinner";
+import PageBackground from "./PageBackground";
 import { DarkModeContext } from "./DarkModeContext";
 
 export {
@@ -17,5 +18,6 @@ export {
     Header,
     Footer,
     DarkModeContext,
-    ImageSpinner
+    ImageSpinner,
+    PageBackground
 }

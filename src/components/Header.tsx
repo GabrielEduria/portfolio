@@ -23,7 +23,7 @@ const Header = () => {
         <p className="text-xs sm:text-sm text-gray-600 dark:text-white">📍 Manila, Philippines</p>
 
       <div className=" flex flex-wrap items-center pl-0.5 ">
-        <span className="text-sm sm:text-base  pb-0.5 "><TextDesign variant="achievement">Full-Stack Developer</TextDesign> | React · Python · RAG</span>
+        <span className="text-sm sm:text-base  pb-0.5 "><TextDesign variant="role">Full-Stack Developer</TextDesign> | <TextDesign variant="skill">React · Python · RAG</TextDesign></span>
       </div>
 
         <div className="flex gap-3 text-xs sm:text-sm pt-0.5 sm:pt-1 text-wrap">

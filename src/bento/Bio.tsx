@@ -1,3 +1,4 @@
+import TextDesign from "../components/TextDesign";
 
 const bio = [
   {
@@ -18,24 +19,24 @@ const bio = [
   },
   {
     year: '2022',
-    description: 'Started studying Computer Science'
+    description: <>Started studying <TextDesign variant="skill">Computer Science</TextDesign></>
     
   },
   {
     year: '2023',
-    description: 'Started freelancing',
+    description: <>Started <TextDesign variant="role">freelancing</TextDesign></>,
   },
   {
     year: '2025',
-    description: 'Built numerous projects and learned a lot of new things'
+    description: <>Built <TextDesign variant="role">numerous projects</TextDesign> and learned a lot of new things</>
   },
   {
     year: '2026',
-    description: 'Founded Blairr Digital'
+    description: <>Founded <TextDesign variant="achievement">Blairr Digital</TextDesign></>
   },
   {
     year: '2026',
-    description: 'Got a university degree of BSc Computer Science 🎓',
+    description: <>Got a university degree of <TextDesign variant="achievement">BSc Computer Science</TextDesign> 🎓</>,
   }
 ]
 

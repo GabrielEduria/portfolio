@@ -32,12 +32,13 @@ const ProjectLists = React.memo(() => {
         className="w-full pr-6"           
         style={{ overflow: 'visible' }}   
       >
-        {projectCards.map((card, index) => (
+        {projectCards.map((card) => (
           <SwiperSlide
-            key={index}
-            className="min-h-[150px] max-h-full p-3 border border-gray-300 rounded-xl 
-            shadow-sm transition flex flex-col justify-between py-2"
+            key={card.slug}
+            className="min-h-[150px] max-h-full border border-gray-300 rounded-xl 
+            shadow-sm transition hover:border-gray-500"
           >
+            <Link to={`/projects/${card.slug}`} className="p-3 py-2 flex flex-col justify-between h-full">
             <div className="flex justify-between items-center gap-2 pb-1">
               <h3 className="font-bold text-base sm:text-lg truncate">{card.title}</h3>
               <p className="font-semibold text-gray-500 dark:border-gray-600 dark:text-gray-300">{card.year}</p>
@@ -53,6 +54,7 @@ const ProjectLists = React.memo(() => {
                 ))}
               </div>
             </div>
+            </Link>
           </SwiperSlide>
         ))}
       </Swiper>
