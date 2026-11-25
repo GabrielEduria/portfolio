@@ -16,6 +16,30 @@ export const projectCategories = [
 
 export const projectCards = [
   {
+    title: "AI Recruitment Automation",
+    slug: "ai-recruitment-automation",
+    category: "ai",
+    year: "2026",
+    image: "/images/ai-recruitment-automation.png",
+    gallery: ["/images/ai-recruitment-automation.png"],
+    shortDescription: "An n8n hiring pipeline where Gemini screens resumes and a person approves every decision",
+    fullDescription: "Applicants submit a resume PDF. The system acknowledges them, has Gemini score the resume against fixed job requirements, alerts the hiring manager about strong candidates, and sends interview invites and rejections only after a person approves. Tested on 8 sample resumes.",
+    tags: ["n8n", "Gemini API", "Webhooks", "SMTP", "Telegram Bot API", "JavaScript"],
+    live: null
+  },
+  {
+    title: "Lead Capture and Follow-up Automation",
+    slug: "lead-capture-automation",
+    category: "ai",
+    year: "2026",
+    image: "/images/lead-capture-automation.png",
+    gallery: ["/images/lead-capture-automation.png"],
+    shortDescription: "An n8n workflow that replies to every lead instantly and follows up automatically",
+    fullDescription: "Every lead gets an instant reply and the owner gets a Telegram alert. Leads with no reply after 48 hours get an automatic follow-up, and a daily summary shows the pipeline. Secured webhook with input validation and spam protection. Tested on sample leads.",
+    tags: ["n8n", "Webhooks", "Data tables", "SMTP", "Telegram Bot API", "JavaScript"],
+    live: null
+  },
+  {
     title: "EN-Construction",
     slug: "en-construction",
     category: "web",

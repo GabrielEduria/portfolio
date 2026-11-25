@@ -84,12 +84,13 @@ const Projects = () => {
                     to={`/projects/${card.slug}`}
                     className="group rounded-2xl flex flex-col transform transition duration-300 hover:scale-[1.02]"
                   >
-                    <div className="w-full overflow-hidden rounded-2xl flex items-center justify-center">
+                    {/* Fixed 16:9 frame so every card image is the same size, whatever the screenshot's shape */}
+                    <div className="w-full aspect-video overflow-hidden rounded-2xl bg-neutral-900">
                       <ImageSpinner
                         src={card.image}
                         alt={`Screenshot of ${card.title}`}
-                        className="max-h-full max-w-full"
-                        imgClassName="w-full h-auto object-contain rounded-lg"
+                        className="w-full h-full"
+                        imgClassName="w-full h-full object-cover object-top"
                       />
                     </div>
 
