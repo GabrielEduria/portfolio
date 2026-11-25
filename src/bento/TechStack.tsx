@@ -25,14 +25,26 @@ const TechStack = () => {
                    </div>
             </div>
            
-           <div >
+           <div className="pb-2">
             <p className="font-bold pb-2">AI & Data</p>
                    <div className="flex flex-wrap gap-3">
                     <Tag>LLM integration</Tag>
+                    <Tag>Gemini API</Tag>
                     <Tag>RAG</Tag>
+                    <Tag>LangChain</Tag>
+                    <Tag>LlamaIndex</Tag>
                     <Tag>Vector databases</Tag>
-                    <Tag>LangChain or LlamaIndex</Tag>
-                    <Tag>Vector or Databases</Tag>
+                   </div>
+            </div>
+
+           <div>
+            <p className="font-bold pb-2">Automation</p>
+                   <div className="flex flex-wrap gap-3">
+                    <Tag>n8n</Tag>
+                    <Tag>Webhooks</Tag>
+                    <Tag>Telegram Bot API</Tag>
+                    <Tag>SMTP</Tag>
+                    <Tag>Data tables</Tag>
                    </div>
             </div>
 

@@ -14,6 +14,12 @@ const About = () => {
         </p>
 
         <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
+            I also build <TextDesign variant="skill">n8n and AI automations</TextDesign> that take
+            repetitive work off a business owner's hands: <TextDesign variant="role">lead capture, follow-ups and hiring pipelines</TextDesign> that
+            report straight to their phone on Telegram.
+        </p>
+
+        <p className="pb-3 leading-relaxed sm:leading-7 overflow-hidden text-base">
             I'm driven by curiosity and growth, and I get real satisfaction from designing and
             building things I'd actually want to use. When I'm not coding, you can catch me at
             the gym or brewing a good cup of coffee. My sport these days is arm wrestling, and I'm currently learning MMA.

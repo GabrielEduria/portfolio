@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, type CSSProperties } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   Motion,
@@ -10,6 +10,11 @@ import {
   PageBackground,
 } from "../components";
 import { projectCards, projectCategories, getProjectBySlug } from "../constants/projectData";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 // Fullscreen photo viewer. Arrow keys / buttons to move, Esc or click outside to close.
 const Lightbox = ({ images, index, title, onClose, onChange }) => {
@@ -92,7 +97,7 @@ const ProjectDetail = () => {
   }
 
   const images = project.gallery?.length ? project.gallery : [project.image];
-  const [hero, ...rest] = images;
+  const hasMany = images.length > 1;
   const category = projectCategories.find((c) => c.id === project.category);
 
   const position = projectCards.findIndex((p) => p.slug === project.slug);
@@ -143,19 +148,42 @@ const ProjectDetail = () => {
             )}
           </header>
 
-          <button
-            type="button"
-            onClick={() => setOpenIndex(0)}
-            className="block w-full rounded-2xl overflow-hidden cursor-zoom-in mb-8 shadow-xl"
-            aria-label="Open photo fullscreen"
-          >
-            <ImageSpinner
-              src={hero}
-              alt={`Screenshot of ${project.title}`}
-              className="w-full min-h-40"
-              imgClassName="w-full h-auto object-contain"
-            />
-          </button>
+          {/* Photo carousel: slides by itself every 4s, pauses on hover, click a photo to open it fullscreen */}
+          <div className="mb-8 rounded-2xl overflow-hidden shadow-xl bg-neutral-900">
+            <Swiper
+              key={project.slug}
+              modules={[Autoplay, Navigation, Pagination]}
+              loop={hasMany}
+              navigation={hasMany}
+              pagination={hasMany ? { clickable: true } : false}
+              autoplay={hasMany ? { delay: 4000, disableOnInteraction: false, pauseOnMouseEnter: true } : false}
+              style={{
+                "--swiper-navigation-color": "#fff",
+                "--swiper-pagination-color": "#fff",
+                "--swiper-pagination-bullet-inactive-color": "#fff",
+                "--swiper-navigation-size": "28px",
+              } as CSSProperties}
+              className="w-full"
+            >
+              {images.map((src, i) => (
+                <SwiperSlide key={src}>
+                  <button
+                    type="button"
+                    onClick={() => setOpenIndex(i)}
+                    className="block w-full aspect-video cursor-zoom-in"
+                    aria-label={`Open photo ${i + 1} fullscreen`}
+                  >
+                    <ImageSpinner
+                      src={src}
+                      alt={`${project.title} screenshot ${i + 1}`}
+                      className="w-full h-full"
+                      imgClassName="w-full h-full object-contain"
+                    />
+                  </button>
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
             <section className="md:col-span-2">
@@ -171,30 +199,6 @@ const ProjectDetail = () => {
               </div>
             </section>
           </div>
-
-          {rest.length > 0 && (
-            <section className="mb-10">
-              <h3 className="text-xl font-bold mb-3">Gallery</h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {rest.map((src, i) => (
-                  <button
-                    key={src}
-                    type="button"
-                    onClick={() => setOpenIndex(i + 1)}
-                    className="rounded-xl overflow-hidden cursor-zoom-in transition duration-300 hover:scale-[1.02]"
-                    aria-label={`Open photo ${i + 2} fullscreen`}
-                  >
-                    <ImageSpinner
-                      src={src}
-                      alt={`${project.title} screenshot ${i + 2}`}
-                      className="w-full min-h-24"
-                      imgClassName="w-full h-auto object-cover"
-                    />
-                  </button>
-                ))}
-              </div>
-            </section>
-          )}
 
           <nav className="flex justify-between gap-4 border-t border-gray-300 dark:border-gray-700 pt-6 text-sm">
             <Link to={`/projects/${prevProject.slug}`} className="flex flex-col hover:opacity-70 transition min-w-0">

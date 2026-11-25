@@ -3,7 +3,7 @@ import { ImageSpinner } from "../components"
 
 const Resume = () => {
   return (
-      <div className="p-3">
+      <div className="p-3 h-full flex flex-col">
         <div className="flex justify-between">
             <h2 className="text-2xl font-bold pb-3 sm:pb-4">
               Resume
@@ -13,14 +13,17 @@ const Resume = () => {
                 <i className="fa-solid fa-arrow-right  ml-2 "/> 
             </Link>        
          </div>
-         <Link to="/resume">
-  <ImageSpinner 
-    src="/resume.png"
-    alt="Resume Preview"
-    className="transition transform duration-200 hover:scale-102 p-1"
-    imgClassName="rounded-lg object-cover w-full blur-[2px] max-h-[200px]  "
-  />
-  </Link>
+         {/* Preview stretches to fill the rest of the box */}
+         <Link to="/resume" className="relative block flex-1 min-h-[200px]">
+           <div className="absolute inset-0 p-1 transition transform duration-200 hover:scale-102">
+             <ImageSpinner
+               src="/resume.png"
+               alt="Resume Preview"
+               className="h-full"
+               imgClassName="w-full h-full object-cover object-top rounded-lg blur-[2px]"
+             />
+           </div>
+         </Link>
       </div>
   )
 }

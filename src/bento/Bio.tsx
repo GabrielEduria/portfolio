@@ -3,11 +3,11 @@ import TextDesign from "../components/TextDesign";
 const bio = [
   {
     year: '2004',
-    description: 'Born in Manila, philippines'
+    description: 'Born in Manila, Philippines'
   },
   {
     year: '2018',
-    description: 'printf("Hello, World!/n)'
+    description: 'printf("Hello, World!\\n");'
   },
   {
     year: '2019',
@@ -25,6 +25,10 @@ const bio = [
   {
     year: '2023',
     description: <>Started <TextDesign variant="role">freelancing</TextDesign></>,
+  },
+  {
+    year: '2024',
+    description: <>Built <TextDesign variant="role">10+ projects</TextDesign> and made <TextDesign variant="skill">50+ GitHub contributions</TextDesign></>
   },
   {
     year: '2025',

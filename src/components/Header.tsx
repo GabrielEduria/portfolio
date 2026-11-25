@@ -20,10 +20,20 @@ const Header = () => {
           </h1> 
             <DarkMode />
         </div>
-        <p className="text-xs sm:text-sm text-gray-600 dark:text-white">📍 Manila, Philippines</p>
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5 text-xs sm:text-sm text-gray-600 dark:text-white">
+          <span>📍 Manila, Philippines</span>
+          {/* Availability badge: pulsing green dot */}
+          <span className="inline-flex items-center gap-1.5 rounded-full border border-gray-300 dark:border-gray-600 px-2 py-0.5 text-gray-600 dark:text-gray-300">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500" />
+            </span>
+            Available for work
+          </span>
+        </div>
 
       <div className=" flex flex-wrap items-center pl-0.5 ">
-        <span className="text-sm sm:text-base  pb-0.5 "><TextDesign variant="role">Full-Stack Developer</TextDesign> | <TextDesign variant="skill">React · Python · RAG</TextDesign></span>
+        <span className="text-sm sm:text-base  pb-0.5 "><TextDesign variant="role">Full-Stack Developer</TextDesign> | <TextDesign variant="skill">React · Python · n8n Automations</TextDesign></span>
       </div>
 
         <div className="flex gap-3 text-xs sm:text-sm pt-0.5 sm:pt-1 text-wrap">

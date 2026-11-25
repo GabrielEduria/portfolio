@@ -40,6 +40,18 @@ export const projectCards = [
     live: null
   },
   {
+    title: "EN Lead Desk",
+    slug: "en-lead-desk",
+    category: "ai",
+    year: "2026",
+    image: "/images/en-lead-desk-1.png",
+    gallery: ["/images/en-lead-desk-1.png", "/images/en-lead-desk-2.png", "/images/en-lead-desk-3.png"],
+    shortDescription: "Lead capture and follow-up automation for EN Construction, run from the owner's Telegram",
+    fullDescription: "Lead capture and follow-up automation built for EN Construction, a solar and construction company in Metro Manila. Website enquiries are validated, saved and sent to the owner on Telegram with the customer's details. The owner updates a lead's status from his phone, and a daily 9 AM reminder lists the leads that need a call. Tested end to end.",
+    tags: ["n8n", "Webhooks", "Data tables", "Telegram Bot API", "SMTP", "JavaScript"],
+    live: null
+  },
+  {
     title: "EN-Construction",
     slug: "en-construction",
     category: "web",
@@ -118,11 +130,11 @@ export const projectCards = [
     title: "Furswipe – A Dog Adoption Application",
     slug: "furswipe",
     category: "app",
-    year: "2025",
+    year: "2024",
     image: "/images/furswipe.png",
     gallery: ["/images/furswipe.png"],
     shortDescription: "A dog adoption app using a swipe-based algorithm inspired by Tinder.",
-    fullDescription: "A swipe-based dog adoption application inspired by Tinder, developed as part of a Software Engineering course in Computer Science. The app matches users with adoptable dogs using an intuitive interface and real-time interactions, demonstrating core principles of user-centered design, state management, and algorithmic decision-making",
+    fullDescription: "A swipe-based dog adoption application inspired by Tinder, developed as my Computer Science sub-thesis, covering the Chapter 1–3 study. The app matches users with adoptable dogs using an intuitive interface and real-time interactions, demonstrating core principles of user-centered design, state management, and algorithmic decision-making",
     tags: ["Flutter", "Firebase", "React Native"],
     url: "https://github.com/GabrielEduria/furswipe",
     live: null

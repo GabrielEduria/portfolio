@@ -4,7 +4,7 @@ import TechStack from "./TechStack";
 import Connect from "./Connect"; 
 import ProjectLists from "./ProjectLists"
 import Resume from "./Resume";
-import Designs from "./Designs";
+import Spotify from "./Spotify";
 
 
 const BentoGrid = () => {
@@ -42,7 +42,7 @@ const BentoGrid = () => {
       <div
         className="border border-gray-300 col-span-12 md:col-span-8 md:row-span-4 rounded-lg order-4 md:order-5 bg-cover bg-center"
       >
-        <Designs />
+        <Spotify />
       </div>
       <div
         className="border border-gray-300 col-span-12 md:col-span-4 md:row-span-4 rounded-lg order-4 md:order-5 bg-cover bg-center"
